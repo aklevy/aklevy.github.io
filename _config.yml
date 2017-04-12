@@ -3,7 +3,7 @@ title: Personal creative projects
 email: ""
 description: > # this means to ignore newlines until "baseurl:"
   Mashup of homemade creative projects
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  aklevy
 
