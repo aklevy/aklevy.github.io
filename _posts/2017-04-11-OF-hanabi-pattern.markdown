@@ -2,12 +2,12 @@
 layout: post
 title:  "Fireworks"
 date:   2017-01-09
-preview: /assets/of_hanabi.gif
+preview: /assets/of_hanabi_reduced_3.gif
 ---
 
 
 <p align="center">
-  <img src="/assets/of_hanabi.gif"/>
+  <img src="/assets/of_hanabi_reduced_4.gif"/>
 </p>
 
 Made with openFrameworks, source code available on [Github](https://github.com/aklevy/pattern_1).
@@ -17,6 +17,6 @@ The short gif above shows the fireworks generated one by one.
 Another mode was also made: the circles filling the window follow the mouse input.
 
 <p align="center">
-  <img src="/assets/pattern_1_mouse.gif"/>
+  <img src="/assets/pattern_1_mouse_reduced_compressed.gif"/>
 </p>
 
