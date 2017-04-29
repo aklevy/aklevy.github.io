@@ -6,7 +6,7 @@ preview: /assets/of_circularPattern_300.gif
 ---
 
 <p align="center">
-  <img src="/assets/of_circularPattern_800.gif"/>
+  <img src="/assets/of_circular_pattern_800.gif"/>
 </p>
 <p align="center">
     <img src="/assets/of_patchwork_reduced.jpg"/>
