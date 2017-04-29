@@ -2,11 +2,11 @@
 layout: post
 title:  "Circles"
 date:   2017-01-09
-preview: /assets/of.gif
+preview: /assets/of_circularPattern_300.gif
 ---
 
 <p align="center">
-  <img src="/assets/of_circularPattern.gif"/>
+  <img src="/assets/of_circularPattern_800.gif"/>
 </p>
 <p align="center">
     <img src="/assets/of_patchwork.png"/>
