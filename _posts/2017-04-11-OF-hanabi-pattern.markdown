@@ -2,7 +2,7 @@
 layout: post
 title:  "Fireworks"
 date:   2017-04-11
-preview: /assets/of_hanabi_reduced_compressed_300.gif
+preview: /assets/preview/hanabi-300.gif
 ---
 
 

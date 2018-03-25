@@ -15,11 +15,13 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #ffffff;
-$brand-color:     #6B0D0D	;
+$brand-color:     #6B0D0D;
+$preview-title-color:     #E80022;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$black-color:  #000000;
 
 // Width of the content area
 $content-width:    800px;

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "QML Creative Controls"
-date:   2018-03-25
-preview: /assets/qmlcc-ex.gif
+date:   2017-05-28
+preview: /assets/preview/qmlcc-ex-300.gif
 ---
 
 

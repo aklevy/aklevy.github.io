@@ -2,7 +2,7 @@
 layout: post
 title:  "Circles"
 date:   2017-01-09
-preview: /assets/of_circularPattern_300.gif
+preview: /assets/preview/of-circular-pattern_300.gif
 ---
 
 <p align="center">
