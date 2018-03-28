@@ -5,12 +5,15 @@
     position: relative;
     text-align: center;
     font-size: 22px;
+    font-family: Fira Sans Condensed;
     background-color: #B2342A
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+    font-family: Fira Sans Condensed;
+
 }
 .nav a {
   color: #022631;
@@ -22,11 +25,15 @@
     color: black;
   }
 }
+.navbar-brand{
+     font-family: Fira Sans Condensed;
+    font-weight: 700;
+}
 
 .navbar-nav > li a:hover{
   color: white;
   background-color: #B2342A;
-
+  font-family: Fira Sans Condensed;
 }
 
 /**
@@ -148,39 +155,51 @@
 
 .post-title {
     font-size: 40px;
-    letter-spacing: -1px;
-    line-height: 3;
+    font-family: Fira Sans Condensed;
+    font-weight: 900;
     text-align: center;
+    padding-top: 20px;
 border-top: 1px solid MidnightBlue;
     @include media-query($on-laptop) {
         font-size: 36px;
+        font-family: Fira Sans Condensed;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-family: Fira Sans Condensed;
 
     h2 {
         font-size: 32px;
+    font-family: Fira Sans Condensed;
 
         @include media-query($on-laptop) {
             font-size: 28px;
+                font-family: Fira Sans Condensed;
+
         }
     }
 
     h3 {
         font-size: 26px;
+    font-family: Fira Sans Condensed;
 
         @include media-query($on-laptop) {
             font-size: 22px;
+                font-family: Fira Sans Condensed;
+
         }
     }
 
     h4 {
         font-size: 20px;
+    font-family: Fira Sans Condensed;
 
         @include media-query($on-laptop) {
             font-size: 18px;
+                font-family: Fira Sans Condensed;
+
         }
     }
 }
