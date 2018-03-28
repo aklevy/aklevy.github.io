@@ -181,15 +181,16 @@ border-top: 1px solid MidnightBlue;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
    
-    &:hover {
+    /*&:hover {
         border: 1px solid $preview-title-color; 
         background: $brand-color;
         opacity: 0.8;
-    }
+    }*/
 }
 
 /* Centered text */
 .centered {
+    padding: 10px;
     box-sizing: border-box;
  /*   -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
