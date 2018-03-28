@@ -1,7 +1,8 @@
 <div class="grid-container">
     {% for post in site.posts %}
         <div align="center" class="preview-panel">
-                <a href="{{ post.url | prepend: site.baseurl }}">
+                <a href="{{ post.url | prepend: site.baseurl }}     text-align: center;
+">
                     <img src="{{ post.preview | prepend: site.baseurl }}">
                     <div class="centered" align="center" > <span>{{ post.title }}</span> </div>
                 </a>
