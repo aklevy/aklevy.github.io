@@ -180,21 +180,20 @@ border-top: 1px solid MidnightBlue;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 4px solid transparent
-    /*&:hover {
+    &:hover {
         border: 1px solid $preview-title-color; 
         background: $brand-color;
         opacity: 0.8;
-    }*/
+    }
 }
 
 /* Centered text */
 .centered {
     padding: 10px;
     box-sizing: border-box;
- /*   -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    width: 200px;
+ /*   width: 200px;
     height: 200px;*/
     text-align: center;
 
