@@ -9,11 +9,22 @@
 }
 
 .navbar .navbar-nav {
-
     display: inline-block;
     float: none;
 }
+.nav a {
+  color: #022631;
+  font-size: 18px;
+  &:hover {
+    color: black;
+  }
+}
 
+.navbar-nav > li a:hover{
+  color: white;
+  background-color: #B2342A;
+
+}
 
 /**
  * Site footer
