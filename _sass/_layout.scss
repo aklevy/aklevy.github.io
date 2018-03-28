@@ -247,7 +247,7 @@ border-top: 1px solid MidnightBlue;
     opacity: 1;
    
     border-radius: 50px;
-    &:hover, &:focus {
+    &:hover, &:focus, &:active {
         text-decorate : underline;
         background-color: #B2342AC0; 
         border-radius: 7px;
