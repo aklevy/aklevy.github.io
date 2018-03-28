@@ -211,8 +211,8 @@ border-top: 1px solid MidnightBlue;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    width: 200px;
-    height: 200px;
+    width: 90%;
+    height: 100%;
     text-align: center;
 
     top: 50%;
@@ -222,7 +222,7 @@ border-top: 1px solid MidnightBlue;
     position: absolute;
     font-size: 20px;
     font-weight: bold;
-    line-height: 200px;
+    line-height: 220px;
 
     color: #FFFFFFE0;
     
@@ -254,4 +254,7 @@ span {
   line-height: normal;
 }
 
+.row{
+    width: 120%;
+}
 
