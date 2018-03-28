@@ -231,10 +231,9 @@ border-top: 1px solid MidnightBlue;
     border-radius: 50px;
     &:hover {
         text-decorate : underline;
-        background-color: #B2342AC0; /*#9A2B49C0;*//*#fc946f80;*/
+        background-color: #B2342AC0; 
         border-radius: 7px;
         color: black;
-       /* color: #B02B39;*//*#074D63;*/
     }
 
     -webkit-transition: background-color 0.2s ease-out ;
