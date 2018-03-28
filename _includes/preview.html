@@ -1,12 +1,11 @@
 {% for post in site.posts %}
     {% cycle 'add row' : '<div class="row">', nil, nil %}
-        <div class="col-md-4">
+        <div class="col-xs-4">
             <div align="center" class="preview-panel">
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img src="{{ post.preview | prepend: site.baseurl }}">
-                    <div class="centered"> <span>{{ post.title }}</span> </div>
+                    <div class="centered" align="center" > <span>{{ post.title }}</span> </div>
                 </a>
-                <!--{{ post.title }}-->
            </div>
         </div>
 {% cycle 'end row' : nil, nil, '</div>' %}
