@@ -183,7 +183,7 @@ border-top: 1px solid MidnightBlue;
     &:hover {
         border: 1px solid $preview-title-color; 
         background: $brand-color;
-        opacity: 0.8;
+        opacity: 0.6;
     }
 }
 
@@ -208,10 +208,7 @@ border-top: 1px solid MidnightBlue;
 
     color: $background-color;
     
-    opacity: 0;
-    &:hover {
-        opacity: 1;
-    }
+    opacity: 1;
 }
 span {
   display: inline-block;
