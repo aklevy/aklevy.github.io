@@ -208,12 +208,20 @@ border-top: 1px solid MidnightBlue;
  * Misc
  */
 .preview-panel {
-    padding: 10px;
+    margin: 10px;
+   /* padding: 10px;*/
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     text-align: center;
+    /*border-radius: 3px;
+    overflow: hidden;
+    &:hover, &:focus, &:active {
+            border-radius: 0px;
+    }*/
 
+     -webkit-transition: border-radius 0.1s ease-out ;
+    transition: border-radius 0.1s ease-out;
 }
 
 
@@ -247,6 +255,7 @@ border-top: 1px solid MidnightBlue;
     opacity: 1;
    
     border-radius: 50px;
+    overflow: hidden;
     &:hover, &:focus, &:active {
         text-decorate : underline;
         background-color: #B2342AC0; 
@@ -287,4 +296,15 @@ span {
     grid-template-columns: repeat(auto-fit, 200px);
     grid-template-rows: repeat(2, 200px);
 }
-
+.base
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+.mask
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
