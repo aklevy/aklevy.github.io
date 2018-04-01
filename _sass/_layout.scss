@@ -107,10 +107,17 @@
 /**
  * Page content
  */
-.page-content {
-    padding: 0;
+ .page-content {
+  
+    margin: auto;
+    width: 100%;
+    
 }
-
+.home{
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
 .page-heading {
     font-size: 20px;
 
@@ -130,7 +137,6 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
-
 }
 
 .post-link {
@@ -158,7 +164,7 @@
     font-weight: 900;
     text-align: center;
     padding-top: 20px;
-border-top: 1px solid MidnightBlue;
+    border-top: 1px solid MidnightBlue;
     @include media-query($on-laptop) {
         font-size: 36px;
         font-family: Fira Sans Condensed;
@@ -214,6 +220,7 @@ border-top: 1px solid MidnightBlue;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     text-align: center;
+   
     /*border-radius: 3px;
     overflow: hidden;
     &:hover, &:focus, &:active {
@@ -240,8 +247,8 @@ border-top: 1px solid MidnightBlue;
     
     top: 50%;
     left: 50%;
-    transform: translate(-5%, -95%);
-
+   /* transform: translate(-5%, -95%);*/
+    transform: translate(-10px,-190px);
    
     display: inline-block;
     font-family: Fira Sans Condensed;
@@ -292,9 +299,21 @@ span {
 
 .grid-container {
     display: grid;
-    grid-gap: 5px;
+
+    height: 100%;
+    width: 100%;
+
     grid-template-columns: repeat(auto-fit, 200px);
-    grid-template-rows: repeat(2, 200px);
+    grid-auto-rows: 200px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+   
+    object-fit: cover;
+   
+   
+    justify-content: space-evenly;  
+    align-content: space-evenly;
+
 }
 .base
     {
