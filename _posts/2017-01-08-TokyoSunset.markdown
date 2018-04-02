@@ -10,9 +10,12 @@ preview: /assets/preview/fuji-preview.png
     <img src="/assets/fuji.jpg"/>
 </p>
 
-Picture of the mount Fuji at sunset from Tokyo and another random Tokyo building picture.
+Picture of the mount Fuji at sunset from Tokyo and random Tokyo building pictures.
 
 
 <p align="center">
     <img src="/assets/tokyo-sunset.jpg"/>
+</p>
+<p align="center">
+    <img src="/assets/tokyo-sunset-1.JPG"/>
 </p>
