@@ -12,7 +12,7 @@ preview: /assets/preview/bjork-preview.png
 <p align="center">
 <span style="font-weight: 800;">Björk</span>
  </p>
-Some of the portraits from photography I have drawn during highschool.
+Some of the portraits from photography I drew during highschool.
 
 
 <p align="center">
