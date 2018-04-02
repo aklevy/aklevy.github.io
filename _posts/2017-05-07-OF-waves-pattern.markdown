@@ -2,7 +2,7 @@
 layout: post
 title:  "Waves"
 date:   2017-05-07
-preview: /assets/preview/circular_pattern2_300.gif
+preview: /assets/preview/waves-preview.png
 ---
 
 

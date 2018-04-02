@@ -6,21 +6,21 @@ layout: default
       href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium">
   <div class="post-nav">
     {% if page.next.url %}
-      <a href="{{ page.next.url }}">&laquo; Prev</a>
+      <a href="{{ page.next.url }}"><img class="center-image" src="/assets/icons/previous.png" style="width: 60px;height: 60px"></a>
+     <!-- <a href="{{ page.next.url }}"><img class="previous-icon"></a>-->
     {% endif %}
-    {% if page.previous.url and page.next.url %}
-      |
-    {% endif %}
+    <a href="/" ><img class="center-image" src="/assets/icons/separator-200.png" style="width: 60px;height: 60px"></a>
     {% if page.previous.url %}
-      <a href="{{ page.previous.url }}">Next &raquo;</a>
+      <a href="{{ page.previous.url }}"><img class="center-image" src="/assets/icons/next.png" style="width: 60px;height: 60px"></a>
+     <!-- <a href="{{ page.previous.url }}"><img class="next-icon"></a>-->
     {% endif %}
   </div>
 
-  <header class="post-header">
+  <header class="post-header" style="position: relative;">
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <article class="post-content">
+  <article class="post-content" style="position: relative;">
     {{ content }}
   </article>
 

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "genMusic"
+date:   2017-08-30
+preview: /assets/preview/genMusic-preview.png
+---
+
+
+<p align="center">
+    <img src="/assets/genMusic.gif"/>
+</p>
+
+[genMusic](https://github.com/aklevy/genMusic) is a projet for an instrument, played using mouse input and/or HotHand and the software [Score](https://ossia.io/). The graphics are roughly inspired by the works of Swiss graphic designer Josef Müller-Brockmann, and more precisely by his posters for Musica Viva.
+
+

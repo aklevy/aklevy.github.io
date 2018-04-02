@@ -8,7 +8,7 @@ permalink: /about/
 
 
 <p align="center">
-  <img src="/assets/profile.JPG" style="width: 250px;"/>
+  <img src="/assets/profile.png" style="width: 250px;"/>
 </p>
 
 <p align="center">

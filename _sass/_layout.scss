@@ -5,34 +5,100 @@
     position: relative;
     text-align: center;
 
-    background-color: #B2342A;
+ /*   background-color:  #B2342A;*/
 }
 
+.site-title{
+    font-size: 30px;
+    font-family: Fira Sans Condensed;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 30px;
+
+}
 .navbar .navbar-nav {
+
     display: inline-block;
     float: none;
     font-family: Fira Sans Condensed;
 
 }
 .nav a {
-  color: #022631;
-  font-size: 21px;
+    color: #022631;
+    font-size: 25px;
     font-family: Fira Sans Condensed;
     font-weight: 700;
-
   &:hover {
-    color: black;
+        color: black;
+        border-radius: 50px;
   }
 }
+
 .navbar-brand{
-     font-family: Fira Sans Condensed;
+
+    font-family: Fira Sans Condensed;
     font-weight: 700;
+    font-size: 25px;
 }
 
+.navbar-nav > li {
+   background-color: transparent;
+  border-radius: 50px;
+}
 .navbar-nav > li a:hover{
-  color: white;
-  background-color: #B2342A;
+  color: #B2342A; 
+  background-color: transparent;
   font-family: Fira Sans Condensed;
+
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.post-nav > a{
+    background-color: transparent;
+    display:inline-block;
+    border-radius: 50px;
+    background-color: #B2342A;  
+
+    margin: 0;
+ /*   height: 40px;
+    width: 40px;*/
+    &:hover {
+        background: transparent;
+  }
+}
+.post-nav{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.home-button{
+    
+   /* display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+    width: 100px;
+    display: inline-block;
+    margin: 0;
+
+    color: #022631;
+    font-size: 25px;
+    font-family: Fira Sans Condensed;
+    font-weight: 700;
+    text-align: center;
+    
+    &:hover {
+        color: black;
+  }
 }
 
 /**
@@ -164,7 +230,7 @@
     font-weight: 900;
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid MidnightBlue;
+    border-top: 2px solid #B2342A;
     @include media-query($on-laptop) {
         font-size: 36px;
         font-family: Fira Sans Condensed;
@@ -174,7 +240,9 @@
 .post-content {
     margin-bottom: $spacing-unit;
     font-family: Fira Sans Condensed;
-
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
     h2 {
         font-size: 32px;
     font-family: Fira Sans Condensed;
@@ -259,7 +327,7 @@
 
     color: #FFFFFFE0;
     
-    opacity: 1;
+    opacity: 0;
    
     border-radius: 50px;
     overflow: hidden;
@@ -269,6 +337,7 @@
         border-radius: 7px;
         color: black;
         letter-spacing: 0px;
+        opacity: 1;
     }
 
     /*&:focus {
@@ -280,6 +349,9 @@
     }*/
     -webkit-transition: background-color 0.2s ease-out ;
     transition: background-color 0.2s ease-out;
+
+-webkit-transition: opacity 0.2s ease-out ;
+    transition: opacity 0.2s ease-out;
 
     -webkit-transition:  color 0.2s ease-out;
     transition: color 0.2s ease-out;
@@ -321,9 +393,20 @@ span {
         top: 0;
         left: 0;
     }
-.mask
+
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: #B2342A;}
+}
+ .line
     {
-        position: absolute;
-        top: 0px;
-        left: 0px;
+        width: $content-width;
+        height: 3px;
+       
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
     }
+
+
+
