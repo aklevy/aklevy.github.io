@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Portraits"
-date: 2011-08-08
 preview: /assets/preview/bjork-preview.png
 ---
 

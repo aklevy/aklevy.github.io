@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "QML Creative Controls"
-preview: /assets/preview/qml_logo_centered-300.png
+preview: /assets/preview/angleSlider-preview.png
 ---
 
 
