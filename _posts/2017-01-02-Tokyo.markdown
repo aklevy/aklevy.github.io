@@ -7,7 +7,7 @@ preview: /assets/preview/tokyo-dawn-preview.png
 
 
 <p align="center">
-    <img src="/assets/tokyo-dawn.jpg"/>
+    <img src="/assets/tokyo-dawn.JPG"/>
 </p>
 
 Pictures of Tokyo at dawn near the Sumida River, taken a few years ago.
