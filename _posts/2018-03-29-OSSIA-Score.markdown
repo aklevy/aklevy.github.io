@@ -15,10 +15,14 @@ preview: /assets/preview/scoreLogo_300.png
   <img src="/assets/ossiaScore-splash.png"/>
 </p>
 
-Just for fun, I also created a cute mascot : 
+Just for fun, I also created a cute mascot named Oscar, and its "triggered" version: 
 
 <p align="center">
   <img src="/assets/scoreFun.png"/>
 </p>
 
+
+<p align="center">
+  <img src="/assets/oscar_triggered_loop.gif" />
+</p>
 
