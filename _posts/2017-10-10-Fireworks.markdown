@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Fireworks"
-date:   2017-04-11
 preview: /assets/preview/hanabi-preview.png
 ---
 

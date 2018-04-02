@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "QML Creative Controls"
-date:   2017-05-28
 preview: /assets/preview/qml_logo_centered-300.png
 ---
 

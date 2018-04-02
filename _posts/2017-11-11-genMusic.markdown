@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "genMusic"
-date:   2017-08-30
 preview: /assets/preview/genMusic-preview.png
+url: genMusic
 ---
 
 

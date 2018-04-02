@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tokyo Dawn"
-date: 2011_03-03
+date: 2011-03-03
 preview: /assets/preview/tokyo-preview.png
 ---
 

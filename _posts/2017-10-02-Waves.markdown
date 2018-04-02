@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Waves"
-date:   2017-05-07
 preview: /assets/preview/waves-preview.png
 ---
 

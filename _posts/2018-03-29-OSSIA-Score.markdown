@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "OSSIA Score"
-date:   2018-03-25
 preview: /assets/preview/scoreLogo_300.png
 ---
 
