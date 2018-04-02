@@ -1,19 +1,23 @@
 ---
 layout: post
 title:  "Tokyo Dawn"
-date: 2011-03-03
-preview: /assets/preview/tokyo-preview.png
+date: 2017-01-02
+preview: /assets/preview/tokyo-dawn-preview.png
 ---
 
 
 <p align="center">
-    <img src="/assets/tokyoMod.png"/>
+    <img src="/assets/tokyo-dawn.jpg"/>
 </p>
 
 Pictures of Tokyo at dawn near the Sumida River, taken a few years ago.
 
+
+
+
 <p align="center">
-  <img src="/assets/tokyo.JPG"/>
+    <img src="/assets/tokyo-dawn-1.png"/>
 </p>
-
-
+<p align="center">
+    <img src="/assets/tokyo-dawn-2.jpg"/>
+</p>
