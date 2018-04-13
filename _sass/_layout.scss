@@ -189,9 +189,12 @@
     
 }
 .home{
+    width: 150%;
+
     padding: 0;
-    margin: auto;
-    width: 100%;
+   /* margin: auto;
+*/
+margin-left: -25%;
 }
 .page-heading {
     font-size: 20px;
@@ -397,6 +400,7 @@ span {
     height: 100%;
     width: 100%;
 
+    /*transform: translate(-25%);*/
     grid-template-columns: repeat(auto-fit, 200px);
     grid-auto-rows: 200px;
     grid-row-gap: 5px;
