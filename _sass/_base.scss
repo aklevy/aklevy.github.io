@@ -204,12 +204,18 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 35px;
+        height: 35px;
         vertical-align: middle;
-
-        path {
-            fill: $grey-color;
+        fill: $grey-color;
+        &:hover, &:focus, &:active {
+            fill: #B2342AC0; 
         }
+       /* path {
+            fill: #B2342AC0; 
+           
+        }*/
+
     }
 }
+
