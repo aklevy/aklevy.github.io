@@ -6,7 +6,7 @@ preview: /assets/preview/angleSlider-preview.png
 
 
 <p align="center">
-    <img src="/assets/qmlcc-logo.png" />
+    <img src="/assets/qmlcc-logo.png" width="40%"/>
 </p>
 
 Open source project with [jcelerier](https://github.com/jcelerier), we implemented controls useful in creative coding in Qt/QML (sliders, angle sliders, led matrix, joystick, keyboard, graph, etc.) : [https://github.com/jcelerier/qml-creative-controls/](https://github.com/jcelerier/qml-creative-controls/).
