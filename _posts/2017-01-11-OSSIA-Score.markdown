@@ -9,7 +9,7 @@ preview: /assets/preview/scoreLogo_300.png
     <img src="/assets/scoreLogo.png" width="300"/>
 </p>
 
-[OSSIA Score](https://github.com/OSSIA/score) is an Open source project for an interactive intermedia sequence, I designed the logo and the splash screen (in which the version name is added in the program).
+[OSSIA Score](https://github.com/OSSIA/score) is an Open source project for an interactive intermedia sequence, I designed the logo, the splash screen and the [website](https://ossia.io/) using Wordpress.
 
 <p align="center">
   <img src="/assets/ossiaScore-splash.png"/>
