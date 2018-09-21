@@ -14,3 +14,6 @@ permalink: /about/
 <p align="center">
   Computer science engineer, keen on art and programming :)
 </p>
+<p align="center">
+  Contributing to the design (logo, website, UI) of the open source interactive intermedia sequencer <a href="https://ossia.io/">ossia score</a>, and developping <a href="https://github.com/jcelerier/qml-creative-controls">QML Creative controls</a>.
+</p>
