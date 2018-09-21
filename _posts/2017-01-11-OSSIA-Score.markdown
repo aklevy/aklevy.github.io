@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OSSIA Score"
+title:  "ossia score"
 preview: /assets/preview/scoreLogo_300.png
 ---
 
@@ -9,7 +9,7 @@ preview: /assets/preview/scoreLogo_300.png
     <img src="/assets/scoreLogo.png" width="300"/>
 </p>
 
-[OSSIA Score](https://github.com/OSSIA/score) is an Open source project for an interactive intermedia sequence, I designed the logo, the splash screen and the [website](https://ossia.io/) using Wordpress.
+Contribution to the graphic design of [ossia score](https://github.com/OSSIA/score), an Open source project for an interactive intermedia sequence. I designed the logo, the [website](https://ossia.io/) using Wordpress and more recently started working on the UI too.
 
 <p align="center">
   <img src="/assets/ossiaScore-splash.png"/>
