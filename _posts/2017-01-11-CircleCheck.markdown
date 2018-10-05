@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Circle Check"
-preview: /assets/preview/circleCheck.png
+preview: /assets/preview/circleCheck-preview.png
 ---
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/ltKcDc?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
