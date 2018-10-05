@@ -4,9 +4,94 @@
 <script src="js/backgroundLine.js" ></script>
 -->
 
+
+<script type="text/javascript">
+  function filter(tag) {
+  setActiveTag(tag);
+  showContainer(tag);
+}
+
+function setActiveTag(tag) {
+ // loop through all items and remove active class
+  var items = document.getElementsByClassName('tag-item');
+  for(var i=0; i < items.length; i++) {
+    items[i].setAttribute('class', 'tag-item');
+  }
+
+  // set the selected tag's item to active
+  var item = document.getElementById(tag + '-item');
+  if(item) {
+    item.setAttribute('class', 'tag-item active');
+  }
+}
+
+function showContainer(tag) {
+  // loop through all lists and hide them
+  var lists = document.getElementsByClassName('blog-list-container');
+  for(var i=0; i < lists.length; i++) {
+    lists[i].setAttribute('class', 'blog-list-container hidden');
+  }
+
+  // remove the hidden class from the list corresponding to the selected tag
+  var list = document.getElementById(tag + '-container');
+  if(list) {
+    list.setAttribute('class', 'blog-list-container');
+  }
+}
+</script>
+
+<!-- assign "all" tag to active by default-->
+
+<!-- list tags-->
+<p align="center">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% assign t = tag | first %}
+    {% assign posts = tag | last %}
+    - <span class="tag-item" id="{{ t }}-item">
+      <a href onclick="filter('{{ t }}'); return false;">{{ t }}</a>
+    </span>
+  {% endfor %}
+  - 
+</p>
+
+
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+  <div class="blog-list-container hidden" id="{{ t }}-container">
+    <script>filter("all");</script>
+
+    <div class="flex-container" style="position: relative;">
+      {% for post in posts %}
+        {% if post.tags contains t %}
+        
+          <div align="center" class="preview-panel">
+            <a href="{{ post.url | prepend: site.baseurl }} " >
+              <img  src="{{ post.preview | prepend: site.baseurl }}">
+              <div class = "overlay" style="background-color:{{ post.color }};" ontouchstart="">
+                <div class= "text">{{ post.title }}</div>
+              </div>
+             </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+     </div>
+
+   <!-- {% assign numPosts = posts | size %}
+    {% if numPosts == 1 %}
+      <p>{{ posts | size }} post containing tag <b>{{ t }}</b></p>
+    {% else %}
+      <p>{{ posts | size }} posts containing tag <b>{{ t }}</b></p>
+    {% endif %}-->
+
+  </div>
+{% endfor %}
+
+<!--
 <div class="flex-container" style="position: relative;">
     {% for post in site.posts %}
-        <div align="center" class="preview-panel">
+      <div align="center" class="preview-panel">
              
              <a href="{{ post.url | prepend: site.baseurl }} " >
                    <img  src="{{ post.preview | prepend: site.baseurl }}">
@@ -17,6 +102,7 @@
              </a>
          
         </div>
+      
     {% endfor %}
-</div> 
+</div> -->
 

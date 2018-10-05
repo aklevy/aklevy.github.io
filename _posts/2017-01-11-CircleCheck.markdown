@@ -2,6 +2,7 @@
 layout: post
 title:  "Circle Check"
 preview: /assets/preview/circleCheck-preview.png
+tags: [all, programming, shader]
 color: "#FF0000A0"
 ---
 

@@ -399,6 +399,28 @@ margin-left: -25%;
    
 }
 
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+
+.tag-item{
+    font-size: 17px;
+    font-family: Fira Sans Condensed;
+    font-weight: 600;
+    color: black; 
+    
+    &:hover, &:focus, &:active {
+        
+        color: $brand-color;
+
+        -webkit-transition: color 0.2s ease-out,;
+        transition: color 0.2s ease-out;
+
+        transition-timing-function: cubic;
+
+    }
+}
 
 span {
   display: inline-block;

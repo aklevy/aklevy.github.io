@@ -2,6 +2,7 @@
 layout: post
 title:  "ossia score"
 preview: /assets/preview/scoreLogo_300.png
+tags: [all, programming, design, C++, Qt]
 color: "#32B4FFC0"
 ---
 
