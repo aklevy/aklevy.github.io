@@ -2,7 +2,7 @@
 layout: post
 title:  "Fireworks"
 preview: /assets/preview/hanabi-preview.png
-tags: [all, programming, C++, openFrameworks]
+tags: [All, programming, C++, openFrameworks]
 color: "#c11900C0"
 ---
 

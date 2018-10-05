@@ -404,7 +404,7 @@ margin-left: -25%;
   visibility: hidden!important;
 }
 
-.tag-item{
+.tag-item {
     font-size: 17px;
     font-family: Fira Sans Condensed;
     font-weight: 600;
@@ -421,7 +421,13 @@ margin-left: -25%;
 
     }
 }
-
+.active{
+    font-size: 17px;
+    font-family: Fira Sans Condensed;
+    font-weight: 600;
+    color: red; 
+   
+}
 span {
   display: inline-block;
   vertical-align: middle;

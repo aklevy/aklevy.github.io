@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Waves"
+title: "Waves"
 preview: /assets/preview/waves-preview.png
-tags: [all, programming, C++, openFrameworks]
+tags: [All, programming, C++, openFrameworks]
 color: "#e592c5C0"
 
 ---
