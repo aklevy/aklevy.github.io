@@ -2,6 +2,7 @@
 layout: post
 title:  "ossia score"
 preview: /assets/preview/scoreLogo_300.png
+color: "#32B4FFC0"
 ---
 
 

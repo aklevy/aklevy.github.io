@@ -2,6 +2,8 @@
 layout: post
 title:  "Bordeaux Sunset"
 preview: /assets/preview/sunsetBdx_preview.png
+color: "#fc8362C0"
+
 ---
 
 <p align="center">

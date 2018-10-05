@@ -3,6 +3,8 @@ layout: post
 title:  "Tokyo Sunset"
 date: 2017-01-08
 preview: /assets/preview/fuji-preview.png
+color: "#ffb711C0"
+
 ---
 
 

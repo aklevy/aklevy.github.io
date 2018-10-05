@@ -2,6 +2,7 @@
 layout: post
 title:  "Fireworks"
 preview: /assets/preview/hanabi-preview.png
+color: "#c11900C0"
 ---
 
 

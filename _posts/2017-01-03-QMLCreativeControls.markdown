@@ -2,6 +2,8 @@
 layout: post
 title:  "QML Creative Controls"
 preview: /assets/preview/angleSlider-preview.png
+color: "#94b23aC0"
+
 ---
 
 

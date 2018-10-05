@@ -3,6 +3,7 @@ layout: post
 title:  "genMusic"
 preview: /assets/preview/genMusic-preview.png
 url: genMusic
+color: "#ff5a00C0"
 ---
 
 

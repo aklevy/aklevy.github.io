@@ -2,6 +2,8 @@
 layout: post
 title:  "Waves"
 preview: /assets/preview/waves-preview.png
+color: "#e592c5C0"
+
 ---
 
 
