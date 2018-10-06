@@ -3,7 +3,7 @@ layout: post
 title:  "Sound Visualisation"
 preview: /assets/preview/sequenceur-preview.png
 color: "#ffe27aC0"
-tags: [All, shader, Qt/QML]
+tags: [All, Shader, Qt/QML]
 ---
 
 

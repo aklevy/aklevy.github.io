@@ -2,7 +2,7 @@
 layout: post
 title:  "Bordeaux Sunset"
 preview: /assets/preview/sunsetBdx_preview.png
-tags: [All, artsy-wimey]
+tags: [All, Artsy-wimey]
 color: "#fc8362C0"
 
 ---

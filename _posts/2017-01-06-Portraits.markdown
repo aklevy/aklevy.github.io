@@ -2,7 +2,7 @@
 layout: post
 title:  "Portraits"
 preview: /assets/preview/bjork-preview.png
-tags: [All, artsy-wimey]
+tags: [All, Artsy-wimey]
 color: "#f5ffd6C0"
 ---
 

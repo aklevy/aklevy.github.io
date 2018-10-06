@@ -407,12 +407,12 @@ margin-left: -25%;
 .tag-item {
     font-size: 17px;
     font-family: Fira Sans Condensed;
-    font-weight: 600;
+    font-weight: 200;
     color: black; 
     
     &:hover, &:focus, &:active {
         
-        color: $brand-color;
+        color: #FF0000;
 
         -webkit-transition: color 0.2s ease-out,;
         transition: color 0.2s ease-out;

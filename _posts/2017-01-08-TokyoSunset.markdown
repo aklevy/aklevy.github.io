@@ -3,7 +3,7 @@ layout: post
 title:  "Tokyo Sunset"
 date: 2017-01-08
 preview: /assets/preview/fuji-preview.png
-tags: [All, artsy-wimey]
+tags: [All, Artsy-wimey]
 color: "#ffb711C0"
 
 ---

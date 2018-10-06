@@ -3,7 +3,7 @@ layout: post
 title:  "Tokyo Dawn"
 date: 2017-01-02
 preview: /assets/preview/tokyo-dawn-preview.png
-tags: [All, artsy-wimey]
+tags: [All, Artsy-wimey]
 color: "#c62309C0"
 ---
 
