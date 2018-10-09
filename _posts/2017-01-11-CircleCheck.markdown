@@ -4,6 +4,7 @@ title:  "Circle Check"
 preview: /assets/preview/circleCheck-preview.png
 tags: [All, Programming, Shader]
 color: "#FF0000A0"
+permalink: circleCheck
 ---
 
 <p align="center">

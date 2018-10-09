@@ -4,6 +4,7 @@ title: "Waves"
 preview: /assets/preview/waves-preview.png
 tags: [All, Programming, C++, openFrameworks]
 color: "#e592c5C0"
+permalink: waves
 
 ---
 

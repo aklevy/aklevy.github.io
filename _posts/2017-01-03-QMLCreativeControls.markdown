@@ -4,6 +4,7 @@ title:  "QML Creative Controls"
 preview: /assets/preview/angleSlider-preview.png
 tags: [All, Programming, Design, Qt/QML, C++]
 color: "#94b23aC0"
+permalink: QMLCreativeControls
 
 ---
 

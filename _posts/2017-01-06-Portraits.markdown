@@ -4,6 +4,7 @@ title:  "Portraits"
 preview: /assets/preview/bjork-preview.png
 tags: [All, Artsy-wimey]
 color: "#f5ffd6C0"
+permalink: portraits
 ---
 
 

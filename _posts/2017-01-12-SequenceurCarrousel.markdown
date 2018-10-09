@@ -4,6 +4,8 @@ title:  "Sound Visualisation"
 preview: /assets/preview/sequenceur-preview.png
 color: "#ffe27aC0"
 tags: [All, Shader, Qt/QML]
+permalink: sequencerCarrousel
+
 ---
 
 

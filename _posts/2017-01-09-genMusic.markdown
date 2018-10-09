@@ -2,9 +2,10 @@
 layout: post
 title:  "genMusic"
 preview: /assets/preview/genMusic-preview.png
-url: genMusic
 tags: [All, Programming, C++, openFrameworks, Audio]
 color: "#ff5a00C0"
+permalink: genMusic
+
 ---
 
 

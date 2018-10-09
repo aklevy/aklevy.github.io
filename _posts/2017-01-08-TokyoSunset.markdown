@@ -5,6 +5,7 @@ date: 2017-01-08
 preview: /assets/preview/fuji-preview.png
 tags: [All, Artsy-wimey]
 color: "#ffb711C0"
+permalink: tokyoSunset
 
 ---
 

@@ -4,6 +4,7 @@ title:  "Fireworks"
 preview: /assets/preview/hanabi-preview.png
 tags: [All, Programming, C++, openFrameworks]
 color: "#c11900C0"
+permalink: fireworks
 ---
 
 
