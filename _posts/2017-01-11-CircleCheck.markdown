@@ -11,4 +11,4 @@ color: "#FF0000A0"
 </p>
 
 Shader made based on the cellular noise shader presented in [The Book of Shaders](https://thebookofshaders.com/12/).
-Source code: <a href="https://github.com/aklevy/aklevy.github.io/shaders/circleCheck.frag" >circleCheck.frag</a>
+Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/circleCheck.frag" >circleCheck.frag</a>
