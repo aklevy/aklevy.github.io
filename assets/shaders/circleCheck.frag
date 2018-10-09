@@ -9,8 +9,12 @@ vec2 random2( vec2 p ) {
     return fract( sin( vec2( dot( p, vec2( 127.1, 311.7 )), dot( p, vec2( 269.5,183.3 )))) * 43758.5453 );
 }
 
-float randomRadius( vec2 p ) {
-    return 0.2 + 0.1 * cos(p.x) + 0.1 * sin(p.y) + 0.8*abs(cos(u_time*0.1));
+float randomCheck() {
+    return 0.2 + 0.8*abs(cos(u_time*0.1));
+}
+
+float randomRadius( vec2 p) {
+    return 0.1 * cos(p.x) + 0.1 * sin(p.y);
 }
 
 
@@ -22,10 +26,10 @@ void main()
     vec2 floor_st = floor( st );
     vec2 frac_st = fract( st );
     
+    float randCheck = randomCheck();
     float randRadius = randomRadius( floor_st );
-    float minDist = randRadius;
+    float sumRand = randCheck + randRadius;
     
-    vec3 col = vec3( 1, 1, 1 );
     gl_FragColor = vec4( 0.9, 0.4, 0., 1. );
     
     for( int y = -1; y <= 1; y++ ){
@@ -40,18 +44,24 @@ void main()
             vec2 vecDiff = movingPoint + neighbor - frac_st;
             float dist = length( vecDiff );
             
-            vec4 newColor = vec4( minDist, minDist * 0.1, minDist * 0.3, 1. );
-                
-            if(mod( idx.x, 4. ) == 0.0 && mod( idx.y, 8. ) == 0. ){
-                    
-                newColor = cos( u_time + idx.x + idx.y ) + vec4( minDist, minDist * 0.1, 1. - minDist * 0.1, 1. );
+            vec4 newColor = vec4( sumRand, sumRand * 0.1, sumRand * 0.3, 1. );
             
+            if(mod( idx.x, 4. ) == 0.0 && mod( idx.y, 8. ) == 0. ){
+                
+                newColor = cos( u_time + idx.x + idx.y ) + vec4( sumRand, sumRand * 0.1, 1. - sumRand * 0.1, 1. );
+
             } else if( mod(idx.x, 7. ) == 0.0 && mod(idx.y, 3. ) == 0.){
                     
-                newColor = cos( u_time + idx.x + idx.y ) + vec4( minDist * 0.7, minDist * 0.1, minDist * 0.5, 1. );
+                newColor = cos( u_time + idx.x + idx.y ) + vec4( sumRand * 0.7, sumRand * 0.1, sumRand * 0.5, 1. );
+
             } 
-            
-           gl_FragColor = mix( gl_FragColor, newColor, smoothstep( cellNb / u_resolution.y, -cellNb / u_resolution.y, dist - minDist ));
+            float mixAlpha = 0.0;
+            if(dist - sumRand < 1.0){
+                mixAlpha = dist - randCheck + 0.2;
+            }
+            else mixAlpha = dist - sumRand;
+
+           gl_FragColor = mix( gl_FragColor, newColor, smoothstep( cellNb / u_resolution.y, -cellNb / u_resolution.y, mixAlpha ));
          }
     }
 
