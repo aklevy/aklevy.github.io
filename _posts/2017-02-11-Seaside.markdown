@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Seaside"
+preview: /assets/preview/sequenceur-preview.png
+color: "#ffe27aC0"
+tags: [All, Shader, Qt/QML, Audio]
+permalink: seaside
+
+---
+
+
+<p align="center">
+<canvas class="glslCanvas" data-fragment-url="/assets/shaders/seaside.frag"  width="700" height="500" data-textures="/assets/shaders/seaside.JPG"></canvas>
+</p>
+
+
+Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/seaside.frag" >seaside.frag</a>
