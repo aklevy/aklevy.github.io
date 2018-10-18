@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Wagara"
+preview: /assets/preview/circleCheck-preview.png
+tags: [All, Programming, Shader]
+color: "#FF0000A0"
+permalink: wagara
+---
+
+<p align="center">
+<canvas class="glslCanvas" data-fragment-url="/assets/shaders/wagara.frag" width="700" height="500"></canvas>
+</p>
+
+
+Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/wagara.frag" >wagara.frag</a>
