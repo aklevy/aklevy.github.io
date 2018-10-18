@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "Wagara"
-preview: /assets/preview/circleCheck-preview.png
+title:  "Nami"
+preview: /assets/preview/wagara-nami-preview.png
 tags: [All, Programming, Shader]
-color: "#FF0000A0"
-permalink: wagara
+color: "#5877B7A0"
+permalink: wagara-nami
 ---
 
 <p align="center">
-<canvas class="glslCanvas" data-fragment-url="/assets/shaders/wagara.frag" width="700" height="500"></canvas>
+<canvas class="glslCanvas" data-fragment-url="/assets/shaders/wagara-nami.frag" width="700" height="500"></canvas>
 </p>
 
+Shader generating traditional japanese pattern representing waves.
 
-Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/wagara.frag" >wagara.frag</a>
+Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/wagara-nami.frag" >wagara.frag</a>
