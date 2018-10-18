@@ -6,7 +6,7 @@ uniform vec2 u_resolution;
 uniform float u_time;
 
 vec2 random2( vec2 p ) {
-    return fract( sin( vec2( dot( p, vec2( 127.1, 311.7 )), dot( p, vec2( 269.5,183.3 )))) * 43758.5453 );
+    return fract( sin( vec2( dot( p, vec2( 269.5,183.3 )) * 43758.5453, dot( p, vec2( 127.1, 311.7 )))));
 }
 
 float randomRadius( vec2 p) {
@@ -77,7 +77,8 @@ void main()
     vec2 frac_st = fract( st );
   	
 	gl_FragColor = vec4( 0.1, 0.19, 0.37, 1. );
-	
+	float time = u_time * 0.2 * log( u_time *100. );
+
 	// draw moving circles 
     for( int y = -1; y <= 1; y++ ){
         for( int x = -1; x <= 1; x++ ){
@@ -87,15 +88,16 @@ void main()
             float randRadius = randomRadius( idx );
             vec2 pointInCell = random2(idx);
             
-            vec2 movingPoint = 0.5 + 0.5 * sin( u_time * 0.1*log( u_time *100. ) + 6.2831 * pointInCell );
+            vec2 movingPoint = 0.5 + 0.5 * sin( time + 6.2831 * pointInCell );
             
             vec2 vecDiff = movingPoint + neighbor - frac_st;
             float dist = length( vecDiff );
             
           
-            if(	(dist - randRadius ) < 0.001){
+             if(	(dist - randRadius ) < 0.001){
+				 vec4 pattern = computePattern(frac_st, cellNb);
+				 
 				// draw background pattern	
-				vec4 pattern = computePattern(frac_st, cellNb);
                 gl_FragColor = mix(   gl_FragColor, pattern,smoothstep( - 1.0 - randRadius , dist - 0.2, dist - randRadius ));
                 
                 return;

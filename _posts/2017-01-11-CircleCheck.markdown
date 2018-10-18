@@ -8,7 +8,9 @@ permalink: circleCheck
 ---
 
 <p align="center">
+<a href="circleCheck-full.html">
 <canvas class="glslCanvas" data-fragment-url="/assets/shaders/circleCheck.frag" width="700" height="500"></canvas>
+</a>
 </p>
 
 Shader made based on the cellular noise shader presented in [The Book of Shaders](https://thebookofshaders.com/12/).
