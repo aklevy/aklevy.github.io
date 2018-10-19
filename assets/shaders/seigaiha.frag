@@ -10,7 +10,7 @@ vec2 random2( vec2 p ) {
 }
 
 float randomRadius( vec2 p) {
-	return 0.8 * cos(p.x) + 0.3 * sin(p.y);
+	return 0.3 * cos(p.x) + 0.8 * sin(p.y);
 }
 
 float distanceTo(vec2 pos, vec2 center ){
