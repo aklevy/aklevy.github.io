@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Seigaiha -青海波-"
+preview: /assets/preview/seigaiha-preview.png
+tags: [All, Programming, Shader]
+color: "#5877B7A0"
+permalink: seigaiha
+---
+
+<p align="center">
+
+<a href="seigaiha-full.html" >
+<canvas class="glslCanvas" data-fragment-url="/assets/shaders/seigaiha.frag" width="700" height="500"></canvas>
+</a>
+</p>
+
+Shader generating traditional japanese pattern representing waves.
+
+Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/seigaiha.frag" >seigaiha.frag</a>
