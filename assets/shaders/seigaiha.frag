@@ -6,11 +6,11 @@ uniform vec2 u_resolution;
 uniform float u_time;
 
 vec2 random2( vec2 p ) {
-    return fract( sin( vec2( dot( p, vec2( 269.5,183.3 )) * 43758.5453, dot( p, vec2( 127.1, 311.7 )))));
+	return fract( sin( vec2( dot( p, vec2( 269.5,183.3 )) * 43758.5453, dot( p, vec2( 127.1, 311.7 )))));
 }
 
 float randomRadius( vec2 p) {
-    return 0.8 * cos(p.x) + 0.3 * sin(p.y);
+	return 0.8 * cos(p.x) + 0.3 * sin(p.y);
 }
 
 float distanceTo(vec2 pos, vec2 center ){
@@ -71,37 +71,37 @@ vec4 computePattern(vec2 pos, float cellNb) {
 void main()
 {
 	float cellNb = 10.0;
-    vec2 st = cellNb * gl_FragCoord.xy / u_resolution.y;
+	vec2 st = cellNb * gl_FragCoord.xy / u_resolution.y;
 
 	vec2 floor_st = floor( st );
-    vec2 frac_st = fract( st );
+	vec2 frac_st = fract( st );
   	
 	gl_FragColor = vec4( 0.1, 0.19, 0.37, 1. );
 	float time = u_time * 0.2 * log( u_time *100. );
 
 	// draw moving circles 
-    for( int y = -1; y <= 1; y++ ){
-        for( int x = -1; x <= 1; x++ ){
+	for( int y = -1; y <= 1; y++ ){
+		for( int x = -1; x <= 1; x++ ){
 			
-            vec2 neighbor = vec2(x,y);
-            vec2 idx = floor_st + neighbor.xy;
-            float randRadius = randomRadius( idx );
-            vec2 pointInCell = random2(idx);
-            
-            vec2 movingPoint = 0.5 + 0.5 * sin( time + 6.2831 * pointInCell );
-            
-            vec2 vecDiff = movingPoint + neighbor - frac_st;
-            float dist = length( vecDiff );
-            
-          
-             if(	(dist - randRadius ) < 0.001){
+			vec2 neighbor = vec2(x,y);
+			vec2 idx = floor_st + neighbor.xy;
+			float randRadius = randomRadius( idx );
+			vec2 pointInCell = random2(idx);
+			
+			vec2 movingPoint = 0.5 + 0.5 * sin( time + 6.2831 * pointInCell );
+			
+			vec2 vecDiff = movingPoint + neighbor - frac_st;
+			float dist = length( vecDiff );
+			
+		  
+			 if(	(dist - randRadius ) < 0.001){
 				 vec4 pattern = computePattern(frac_st, cellNb);
 				 
 				// draw background pattern	
-                gl_FragColor = mix(   gl_FragColor, pattern,smoothstep( - 1.0 - randRadius , dist - 0.2, dist - randRadius ));
-                
-                return;
-            }
+				gl_FragColor = mix(   gl_FragColor, pattern,smoothstep( - 1.0 - randRadius , dist - 0.2, dist - randRadius ));
+				
+				return;
+			}
 		}
 	}
 }
