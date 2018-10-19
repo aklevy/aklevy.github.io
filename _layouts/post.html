@@ -2,8 +2,9 @@
 layout: default
 ---
 <div class="post">
-  <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium">
+ <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:regular,bold,bolditalic,semi-bold,black,blackitalic,light,medium|Rounded+Mplus+1c:regular,bold,semi-bold,black,light,medium">
+
   <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 
   <div class="post-nav" ontouchstart="">
@@ -26,7 +27,10 @@ layout: default
 -->
 
   <header class="post-header" style="position: relative;">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}
+    </h1>
+    <p class="post-subtitle" lang="ja">{{ page.subtitle }}</p>
+    
   </header>
 
   <article class="post-content" style="position: relative;">

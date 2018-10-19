@@ -10,7 +10,7 @@
 
 .site-title{
     font-size: 30px;
-    font-family: Fira Sans Condensed;
+    font-family: Fira Sans Condensedm, Rounded Mplus 1c;
     font-weight: 700;
     text-align: left;
     padding-left: 200px;
@@ -271,6 +271,12 @@ margin-left: -25%;
 /**
  * Posts
  */
+ 
+:lang(ja){
+	font-family: "Rounded Mplus 1c";
+	font-weight: 400;
+}
+
 .post-header {
     margin-bottom: $spacing-unit
 }
@@ -293,6 +299,28 @@ margin-left: -25%;
         font-family: Fira Sans Condensed;
     }
 }
+.post-subtitle {
+    font-size: 40px;
+    font-family: Fira Sans Condensed;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+    @include media-query($on-laptop) {
+        font-size: 36px;
+        font-family: Fira Sans Condensed;
+        }
+}
+.post-subtitle:lang(ja) {
+    font-size: 40px;
+    font-family: "Rounded Mplus 1c";
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    @include media-query($on-laptop) {
+        font-size: 36px;
+        font-family: "Rounded Mplus 1c";
+    }
+}
 
 .post-content {
     margin-bottom: $spacing-unit;
@@ -302,7 +330,7 @@ margin-left: -25%;
     text-align: justify;
     h2 {
         font-size: 32px;
-    font-family: Fira Sans Condensed;
+		font-family: Fira Sans Condensed;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -333,7 +361,6 @@ margin-left: -25%;
         }
     }
 }
-
 
 /**
  * Misc
