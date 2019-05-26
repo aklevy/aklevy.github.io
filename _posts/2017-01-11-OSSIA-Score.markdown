@@ -15,7 +15,9 @@ permalink: ossiaScore
 Contribution to the graphic design of [ossia score](https://github.com/OSSIA/score), an Open source project for an interactive intermedia sequencer. I designed the logo, the [website](https://ossia.io/) using Wordpress and more recently started working on the UI too.
 
 <p align="center">
+<a href="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png">
   <img src="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png"/>
+  </a>
 </p>
 
 Just for fun, I also created a cute mascot named Oscar, and its "triggered" version: 
