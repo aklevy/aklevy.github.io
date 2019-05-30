@@ -17,3 +17,10 @@ permalink: /about/
 <p align="center">
   Contributing to the design (logo, website, UI) of the open source interactive intermedia sequencer <a href="https://ossia.io/">ossia score</a>, and developping <a href="https://github.com/jcelerier/qml-creative-controls">QML Creative controls</a>.
 </p>
+
+<p align="center">
+  And, also owner of a lovely cat: 
+</p>
+<p align="center">
+  <img src="/assets/shashimi.png" style="width: 250px;"/>
+</p>
