@@ -10,7 +10,7 @@ permalink: vaporwave
 
 <p align="center">
 
-<a href="vaporwave-full.html" >
+<a href="shader-html/vaporwave-full.html" >
 <canvas class="glslCanvas" data-fragment-url="/assets/shaders/vaporwave.frag" width="700" height="500"></canvas>
 </a>
 </p>

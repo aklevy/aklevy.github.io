@@ -8,7 +8,7 @@ permalink: circleCheck
 ---
 
 <p align="center">
-<a href="circleCheck-full.html">
+<a href="shader-html/circleCheck-full.html">
 <canvas class="glslCanvas" data-fragment-url="/assets/shaders/circleCheck.frag" width="700" height="500"></canvas>
 </a>
 </p>

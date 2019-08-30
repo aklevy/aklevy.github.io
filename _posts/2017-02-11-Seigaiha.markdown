@@ -10,7 +10,7 @@ permalink: seigaiha
 
 <p align="center">
 
-<a href="seigaiha-full.html" >
+<a href="shader-html/seigaiha-full.html" >
 <canvas class="glslCanvas" data-fragment-url="/assets/shaders/seigaiha.frag" width="700" height="500"></canvas>
 </a>
 </p>
