@@ -23,20 +23,30 @@ void main()
 {
     // Normalized pixel coordinates (from 0 to 1)
     vec2 uv = gl_FragCoord.xy/u_resolution.xy;
-    
-    float number = u_resolution.x / 1000.0;
-
     float rand = random(uv);
+    
+	float speed =  mod(u_time, 10.0) / 10.0;
+    float wave_amplitude = 0.5 * 0.5 * sin(3.14 * speed);
+    float wave_number = 5.0;
+    float rand_sin_x = wave_amplitude * fract(gl_FragCoord.x );
+    float rand_sin_y = speed + speed * wave_amplitude * sin(gl_FragCoord.y );
+    
+    float mod_y = mod(gl_FragCoord.y, rand_sin_y * 20.0 + 56.0);
+    float mod_x = mod(gl_FragCoord.x, rand_sin_x * 42.0 + 42.0);
+    
+   	if(mod_y > rand_sin_x * 2.0 +13.0 && mod_y < rand_sin_y * 3.0 + 30.0)
+    {
+        uv.x += 0.1;
+    }float number = 10.0;//u_resolution.x / 1000.0;
+
+    
     vec3 col = sand(rand); //sand
     
-    float speed =  mod(u_time, 10.0) / 10.0;
-    float x_offset =  5.0;
-    float wave_amplitude = 0.5 * 0.5 * sin(3.14 * speed);
+    float x_offset =  -10.0;
     float y_offset = -0.3 + sin(3.14 * speed);
     
-    
     float peak = 1.0/rand + 0.5 + random(vec2(uv.x, uv.x));
-    float yy = 0.2 * (1.0 + wave_amplitude * peak * cos(x_offset + 3.0 * 3.14 * uv.x ));
+    float yy = 0.2 * (1.0 + wave_amplitude * peak * cos(x_offset + wave_number * 3.14 * uv.x ));
     if(uv.y > yy + y_offset)
     {
         col.x = 0.8*(uv.y - yy - y_offset)/(1.0 - yy - y_offset) + 0.1 * rand;

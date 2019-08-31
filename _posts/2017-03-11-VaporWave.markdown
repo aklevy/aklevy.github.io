@@ -14,6 +14,6 @@ permalink: vaporwave
 <canvas class="glslCanvas" data-fragment-url="/assets/shaders/vaporwave.frag" width="700" height="500"></canvas>
 </a>
 </p>
-Quick shader generating waves on the beach.
+Quick vaporwave inspired shader generating waves on the shore.
 
 Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/vaporwave.frag" >vaporwave.frag</a>
