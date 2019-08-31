@@ -19,11 +19,11 @@ permalink: ossiaScore
   </a>
 </p>
 
-Contribution to the graphic design of [ossia score](https://github.com/OSSIA/score), an Open source project for an interactive intermedia sequencer for audio visual artists. I designed the current logo (image above) by taking hints from the UI: dash,lines correspond to the timeline representation and the triangle is for the trigger. As the [website](https://ossia.io/) was getting old, I reshaped it as well using Wordpress. 
+Contribution to the graphic design of [ossia score](https://github.com/OSSIA/score), an open source project for an interactive intermedia sequencer for audio visual artists. I designed the current logo (image above) by taking hints from the UI: dash, lines correspond to the timeline representation and the triangle is for the trigger. As the [website](https://ossia.io/) was getting old, since it was already using Wordpress, I chose a modern theme and tweaked it a bit. 
 
 Later on, as I was starting to be quite involved in the project, I decided to work on the UI too, as it was another one of these interesting graphic aspects for which I could participate as both designer and developper.
 
-So from here, I will explain the main UI evolution steps of ossia score for which I was involved (between 07/2018 to 05/2019). It is more a reminder for myself of the reasons behind the changes I have done, so there might be too much details.
+So from here, I will explain the main UI evolution steps of ossia score for which I was involved (between 07/2018 to 08/2019). It is more a reminder for myself of the reasons behind the changes I have done, so there might be too much details.
 
 First, the UI looked like this originally. As you can see, it is quite complex with a main workspace in the middle, with panels on the sides and finally icons in the header. One thing that seemed unnecessary to me was the light grey background in the panels and for the icons, as it was adding more color eventhough there were already quite a few in the main zone. 
 <p align="center">
@@ -59,10 +59,16 @@ Up until then, I have generally chosen the part I wanted to work on and did not 
 <a href="/assets/score-3.png">
 <img src="/assets/score-3.png"/>
 </a>
-<figcaption style="text-align:center">New UI with rework of the central area</figcaption>
+<figcaption style="text-align:center">Rework of the central area</figcaption>
 </p>
 
-The next UI redesign I am looking for is the controls in the boxes, once done I will put screenshot here.
+The latest UI redesign concerned mainly redesigning the controls in the boxes and applying a darker color theme to the UI background.
+<p align="center">
+<a href="/assets/score-4.png">
+<img src="/assets/score-4.png"/>
+</a>
+<figcaption style="text-align:center">Controls (sliders in the bottom right) improved and the new dark theme</figcaption>
+</p>
 
 I also created a cute mascot named Oscar, because why not: 
 
