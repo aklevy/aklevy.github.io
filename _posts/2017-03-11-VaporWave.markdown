@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VaporWave"
+title:  "V a p o r W a v e"
 subtitle: ""
 preview: /assets/preview/vaporwave-preview.png
 tags: [All, Programming, Shader]
@@ -14,6 +14,6 @@ permalink: vaporwave
 <canvas class="glslCanvas" data-fragment-url="/assets/shaders/vaporwave.frag" width="700" height="500"></canvas>
 </a>
 </p>
-Quick vaporwave inspired shader generating waves on the shore.
+Quick vaporwave-inspired shader generating waves on the shore.
 
 Source code: <a href="https://github.com/aklevy/aklevy.github.io/blob/master/assets/shaders/vaporwave.frag" >vaporwave.frag</a>
