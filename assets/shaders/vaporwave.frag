@@ -21,7 +21,6 @@ vec3 sand(float ratio)
 
 void main()
 {
-    // Normalized pixel coordinates (from 0 to 1)
     vec2 uv = gl_FragCoord.xy/u_resolution.xy;
     float rand = random(uv);
     
@@ -37,10 +36,9 @@ void main()
    	if(mod_y > rand_sin_x * 2.0 +13.0 && mod_y < rand_sin_y * 3.0 + 30.0)
     {
         uv.x += 0.1;
-    }float number = 10.0;//u_resolution.x / 1000.0;
-
+    }
     
-    vec3 col = sand(rand); //sand
+    vec3 col = sand(rand); 
     
     float x_offset =  -10.0;
     float y_offset = -0.3 + sin(3.14 * speed);
@@ -60,6 +58,5 @@ void main()
         col.z = 0.75 + wave_amplitude + random(uv);
     }
    
-    // Output to screen
     gl_FragColor = vec4(col, 1.0);
 }
