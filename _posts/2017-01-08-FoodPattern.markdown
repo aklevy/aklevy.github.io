@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Food"
+title:  "Food Pattern"
 date: 2017-01-08
 preview: /assets/preview/food-preview.png
 tags: [All, Artsy-wimey]
 color: "#ffb3b3a0"
-permalink: food
+permalink: food-pattern
 
 ---
 
