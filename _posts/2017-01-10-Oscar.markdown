@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Oscar"
+date: 2017-01-08
+preview: /assets/preview/oscar-preview.png
+tags: [All, Artsy-wimey]
+color: "#2bbadfa0"
+permalink: oscar
+
+---
+
+<p align="center">
+<a href="/assets/oscar_triggered_loop.gif">
+  <img src="/assets/oscar.png"/>
+  </a>
+</p>
+For the open source project [ossia score](https://github.com/OSSIA/score), an interactive intermedia sequencer for audio visual artists, I created a cute mascot named Oscar (reference to the OSC protocol) based on the project logo previously made and UI elements from the software.
+
+<p align="center">
+    <img src="/assets/scoreLogo.png" width="300"/>
+    <figcaption style="text-align:center">ossia score logo</figcaption>
+</p>
+He can be seen in the project website under the [contribution section](https://ossia.io/contributing/).
+Here's his detailed profile:
+<p align="center">
+    <img src="/assets/oscar_id_card.png"/>
+</p>
+
+

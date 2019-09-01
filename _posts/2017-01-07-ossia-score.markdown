@@ -70,11 +70,3 @@ The latest UI redesign concerned mainly redesigning the controls in the boxes an
 <figcaption style="text-align:center">Controls (sliders in the bottom right) improved and the new dark theme</figcaption>
 </p>
 
-I also created a cute mascot named Oscar, because why not: 
-
-<p align="center">
-<a href="/assets/oscar_triggered_loop.gif">
-  <img src="/assets/scoreFun.png"/>
-  </a>
-</p>
-
