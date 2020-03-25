@@ -20,15 +20,15 @@ permalink: process-icons
 
 Icons made for the open source project [ossia score](https://github.com/OSSIA/score), used for the different process categories: 
 (from left to right)
-- Audio
-- Auomations
-- Controls
-- Filters
-- GFX
-- Midi
-- Script
-- Structure
-- UI
+* Audio
+* Auomations
+* Controls
+* Filters
+* GFX
+* Midi
+* Script
+* Structure
+* UI
 
 The main difficulty was that icons were quite small 16 x 16 pixels, so fitting just the necessary information was the key.
 
