@@ -8,9 +8,14 @@ permalink: process-icons
 
 ---
 
+<p align="center">
+  <img src="/assets/ossia_score_process_icons.png"/>
+  <figcaption style="text-align:center">Process icons in the original size:  16x16 px</figcaption>
+</p>
 
 <p align="center">
     <img src="/assets/ossia_score_process_icons@2x.png"/>
+    <figcaption style="text-align:center">Process icons in retina:  32x32 px</figcaption>
 </p>
 
 Icons made for the open source project [ossia score](https://github.com/OSSIA/score), used for the different process categories: 
@@ -32,9 +37,4 @@ The main difficulty was that icons were quite small 16 x 16 pixels, so fitting j
     <img src="/assets/ossia_score_process_icons_overview.png"/>
     </a>
     <figcaption style="text-align:center">Icons on the left list and displayed also on the right</figcaption>
-</p>
-
-The image below shows the icon in 16x16, the image on the top is the retina version (32x32).
-<p align="center">
-  <img src="/assets/ossia_score_process_icons.png"/>
 </p>
