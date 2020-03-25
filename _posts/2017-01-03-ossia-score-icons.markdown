@@ -19,6 +19,7 @@ Icons made for the open source project [ossia score](https://github.com/OSSIA/sc
 <p align="center">
     <a href="/assets/ossia_score_process_icons_overview.png">
     <img src="/assets/ossia_score_process_icons_overview.png"/>
+    </a>
     <figcaption style="text-align:center">Icons on the left list and displayed also on the right</figcaption>
 </p>
 
