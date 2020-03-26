@@ -18,14 +18,14 @@ permalink: process-icons
     <figcaption style="text-align:center">Process icons in retina:  32x32 px</figcaption>
 </p>
 
-Icons made for the open source project [ossia score](https://github.com/OSSIA/score), used for the different process categories: 
-(from left to right)
+Icons made for the open source project [ossia score](https://github.com/OSSIA/score), used for the different process categories:
+
 <p align="center">
     <img src="/assets/list_process_icons.png"/>
     <figcaption style="text-align:center">Process icons (actually the Impro icon is for GFX which is a category not available yet)</figcaption>
 </p>
 
-The main difficulty was that icons were quite small 16 x 16 pixels, so fitting just the necessary information was the key.
+The main difficulty was that icons were quite small 16 x 16 pixels, so it was just enough space to fit the necessary information and nothing more.
 
 <p align="center">
     <a href="/assets/ossia_score_process_icons_overview.png">
