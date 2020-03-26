@@ -20,15 +20,10 @@ permalink: process-icons
 
 Icons made for the open source project [ossia score](https://github.com/OSSIA/score), used for the different process categories: 
 (from left to right)
-* Audio
-* Automations
-* Controls
-* Filters
-* GFX
-* Midi
-* Script
-* Structure
-* UI
+<p align="center">
+    <img src="/assets/list_process_icons.png"/>
+    <figcaption style="text-align:center">Process icons (actually the Impro icon is for GFX which is a category not available yet)</figcaption>
+</p>
 
 The main difficulty was that icons were quite small 16 x 16 pixels, so fitting just the necessary information was the key.
 
