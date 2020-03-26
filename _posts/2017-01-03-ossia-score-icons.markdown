@@ -21,7 +21,7 @@ permalink: process-icons
 Icons made for the open source project [ossia score](https://github.com/OSSIA/score), used for the different process categories: 
 (from left to right)
 * Audio
-* Auomations
+* Automations
 * Controls
 * Filters
 * GFX

@@ -70,14 +70,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
-
-    &:hover {
-        color: $background-color;
-        background-color: brand-color;
-    }
-    font-size: 20px;
-    font-weight: bold;
-    color: $background-color;
+    color: $text-color;
 }
 
 li {
