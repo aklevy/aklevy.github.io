@@ -1,21 +1,27 @@
 /**
  * Site header
  */
+
 .site-header {
     position: relative;
     text-align: center;
-
- /*   background-color:  #B2342A;*/
+   /* background-color: #FFA36D*/
 }
-
 .site-title{
     font-size: 30px;
-    font-family: Fira Sans Condensedm, Rounded Mplus 1c;
+    font-family: Fira Sans Condensed;
     font-weight: 700;
-    text-align: left;
-    padding-left: 200px;
-    padding-top: 30px;
+    text-align: center;
+    vertical-align: center;
 
+}
+
+.site-footer {
+    background-color: #FFA36D
+}
+
+.site-header{
+    background-color: #FFA36D
 }
 .navbar .navbar-nav {
 
@@ -86,14 +92,14 @@
 }
 
 .post-nav > a{
-    width: 100%;
+    width: 10%;
 }
 
 .post-nav{
 
-    width: 50%;
-    margin-top: -50px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     display: flex;
     margin-left: auto;
@@ -137,11 +143,21 @@
     color: black; 
     vertical-align: bottom;
     text-align: center;
-
-
-  
+    
     line-height: 40px;
 }
+
+.footer-about{
+    font-size: 25px;
+    font-family: Fira Sans Condensed;
+    font-weight: 600;
+    color: black; 
+    vertical-align: bottom;
+    text-align: center;
+
+    line-height: 40px;
+}
+
 .custom-site-footer{
 
     display: grid;
@@ -159,7 +175,6 @@
 }
 
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -234,12 +249,9 @@
     
 }
 .home{
-    width: 150%;
+    width: 100%;
 
     padding: 0;
-   /* margin: auto;
-*/
-margin-left: -25%;
 }
 .page-heading {
     font-size: 20px;
@@ -283,7 +295,7 @@ margin-left: -25%;
 
 .post-nav {
     text-align: center;
-    line-height: 3;
+    line-height: 0;
 
 }
 
@@ -293,7 +305,6 @@ margin-left: -25%;
     font-weight: 900;
     text-align: center;
     padding-top: 20px;
-    border-top: 2px solid #B2342A;
     @include media-query($on-laptop) {
         font-size: 36px;
         font-family: Fira Sans Condensed;
