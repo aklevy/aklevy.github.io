@@ -23,7 +23,7 @@ permalink: /about/
 </p>
 
 <p align="center">
-  Developper and designer for the open source <a href="https://github.com/jcelerier/qml-creative-controls">QML Creative controls</a> :
+  Developer and designer for the open source <a href="https://github.com/jcelerier/qml-creative-controls">QML Creative controls</a> :
 </p>
 
 <p align="center">
