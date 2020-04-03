@@ -108,6 +108,17 @@ a {
         text-decoration: underline;
     }
 }
+.title {
+    color: $background-color;
+    text-decoration: none;
+
+    &:visited {
+        color: $background-color;
+    }
+    &:hover {
+        color: #000;
+    }
+}
 
 
 
@@ -201,6 +212,7 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+
 
 /**
  * Clearfix

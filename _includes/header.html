@@ -22,14 +22,11 @@
             <span class="icon-bar"></span>
           </button>          
         </div>
-        <div class="site-title" >{{site.title}}</div>
-        <div class="navbar-collapse-collapse"  >
-          <ul class="nav navbar-nav">
-            {% if page.url == "/about/" %}
-            <li class="active"><a href="/">HOME</a></li>
-            {% endif %}
-          </ul>
-        </div><!--/.nav-collapse -->
+        {% if page.url == "/about/" %}
+             <a class="title" href="/" ><div class="site-title" >{{site.title}}</div></a>
+        {% else %}
+             <div class="site-title" >{{site.title}}</div>
+        {% endif %}
       </div>
     </div>
   </nav>

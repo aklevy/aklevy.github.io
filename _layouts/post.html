@@ -4,13 +4,13 @@ layout: post_layout
 
 
 
-<div class="wrap-header-post"  style="background-color:{{ page.color }};">
+<div class="wrap-header-post">
   <div class="post-nav" ontouchstart="">
     {% if page.next.url %}
       <a href="{{ page.next.url }}"><img class="center-image" src="/assets/icons/previous.png" style="width: 50px;"></a>
      <!-- <a href="{{ page.next.url }}"><img class="previous-icon"></a>-->
     {% endif %}
-    <a href="/" ><img class="center-image" src="/assets/icons/separator-200.png" style="width: 50px;"></a>
+    <a href="/" ><img class="center-image" src="/assets/icons/home.png" style="width: 64px;"></a>
     {% if page.previous.url %}
       <a href="{{ page.previous.url }}"><img class="center-image" src="/assets/icons/next.png" style="width: 50px;"></a>
      <!-- <a href="{{ page.previous.url }}"><img class="next-icon"></a>-->
@@ -33,7 +33,7 @@ layout: post_layout
 -->
 
   <header class="post-header" style="position: relative; ">
-    <h1 class="post-title">{{ page.title }}
+    <h1 class="post-title"   style="background-color:{{ page.color }};">{{ page.title }}
     </h1>
     <p class="post-subtitle" lang="ja">{{ page.subtitle }}</p>
     

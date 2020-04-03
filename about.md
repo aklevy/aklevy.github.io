@@ -14,6 +14,18 @@ permalink: /about/
 <p align="center">
   Software engineer, keen on art and programming :)
 </p>
+
 <p align="center">
-  Contributing to the design (logo, website, UI) of the open source interactive intermedia sequencer <a href="https://ossia.io/">ossia score</a>, and developping <a href="https://github.com/jcelerier/qml-creative-controls">QML Creative controls</a>.
+  Lead UI and graphic designer (logo, website, UI) of the open source interactive intermedia sequencer <a href="https://ossia.io/">ossia score</a> :
+</p>
+<p align="center">
+    <a href="https://github.com/OSSIA/score"><img src="/assets/scoreLogo.png" width="150"/></a>
+</p>
+
+<p align="center">
+  Developper and designer for the open source <a href="https://github.com/jcelerier/qml-creative-controls">QML Creative controls</a> :
+</p>
+
+<p align="center">
+    <a href="https://github.com/jcelerier/qml-creative-controls"><img src="/assets/qmlcc-logo.png" width="150"/></a>
 </p>

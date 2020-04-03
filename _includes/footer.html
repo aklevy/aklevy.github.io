@@ -30,7 +30,9 @@
       <!-- {% if site.description %}
       <span class="site-description">{{ site.description }}</span>
          {% endif %}-->
+         {% if page.url != "/about/" %}
           <span class="footer-about"><a href="/about" >About</a></span>
+        {% endif %}
 
    </div> 
 

@@ -37,7 +37,7 @@ function showContainer(tag) {
 
 
 <!-- assign "all" tag to active by default-->
- <div class="wrapper-frontpage">
+
 <!-- list tags-->
 <p class="tag-list" align="center">
   {% assign sorted_tags = site.tags | sort %}
@@ -58,7 +58,7 @@ function showContainer(tag) {
   <div class="blog-list-container hidden" id="{{ t }}-container">
     <script>filter("All");</script>
 
-    <div class="flex-container" style="position: relative;">
+    <div class="flex-container">
       {% for post in posts %}
         {% if post.tags contains t %}
         
@@ -85,7 +85,6 @@ function showContainer(tag) {
   </div>
 {% endfor %}
 
- </div>
 <!--
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
