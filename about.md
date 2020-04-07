@@ -13,6 +13,7 @@ permalink: /about/
 
 <p align="center">
   Software engineer, keen on art and programming :)
+  I always wanted to have an artistic portfolio so here it is !
 </p>
 
 <p align="center">

@@ -4,7 +4,7 @@ title:  "Cat"
 date: 2017-01-08
 preview: /assets/preview/cat-preview.png
 tags: [All, Artsy-wimey]
-color: "#753820a0"
+color: "#FF9C9Ca0"
 permalink: cat
 
 ---
