@@ -12,7 +12,6 @@
 
 
     <nav class= "navbar" >
-
       <div class="container">
         <div class="navbar-header"  >
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -22,8 +21,8 @@
             <span class="icon-bar"></span>
           </button>          
         </div>
-        {% if page.url == "/about/" %}
-             <a class="title" href="/" ><div class="site-title" >{{site.title}}</div></a>
+        {% if page.url != "/" %}
+             <div class="site-title link" ><a class="title" href="/" >{{site.title}}</a></div>
         {% else %}
              <div class="site-title" >{{site.title}}</div>
         {% endif %}

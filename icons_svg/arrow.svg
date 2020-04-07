@@ -15,8 +15,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="home.svg"
-   inkscape:export-filename="/home/alevy/dev/aklevy.github.io/assets/icons/home.png"
+   sodipodi:docname="arrow.svg"
+   inkscape:export-filename="/home/alevy/dev/aklevy.github.io/assets/icons/previous.png"
    inkscape:export-xdpi="192"
    inkscape:export-ydpi="192">
   <defs
@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="25.874999"
-     inkscape:cx="11.623192"
-     inkscape:cy="13.58283"
+     inkscape:zoom="17.19332"
+     inkscape:cx="10.560332"
+     inkscape:cy="16.380179"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g13"
      showgrid="true"
      units="px"
      inkscape:window-width="1920"
@@ -40,7 +40,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-global="false">
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
        id="grid10" />
@@ -58,15 +58,32 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Calque 1"
+     transform="translate(0,-288.53332)"
+     id="g5153"
      inkscape:groupmode="layer"
-     id="layer1"
+     inkscape:label="next"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5151"
+       d="m 3.1939017,291.06574 v 3.40183 l 2.6458606,-1.70092 z"
+       style="fill:#f8dada;fill-opacity:1;stroke:#f8dada;stroke-width:0.56697011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="previous"
+     inkscape:groupmode="layer"
+     id="g13"
      transform="translate(0,-288.53332)">
     <path
-       id="rect824"
-       style="opacity:1;vector-effect:none;fill:#f8dada;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25938243;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 6.0854169,294.88332 v -2.38125 h 0.6614583 l -0.9260416,-0.79375 v -0.79375 H 5.2916669 v 0.52917 l -1.0583338,-0.79375 -2.5135417,1.85208 h 0.6614588 v 2.38125 h 1.3229167 v -1.5875 h 1.0583333 v 1.5875 z"
+       style="fill:#f8dada;fill-opacity:1;stroke:#f8dada;stroke-width:0.56697011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 5.3105716,291.06574 v 3.40183 L 2.664711,292.76665 Z"
+       id="path11"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/alevy/dev/aklevy.github.io/assets/icons/path11.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
   </g>
 </svg>

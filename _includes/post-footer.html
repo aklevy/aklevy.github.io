@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="post-nav" ontouchstart="" style="padding-bottom:20px;">
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}"><img class="icon-nav" src="/assets/icons/previous.png" style="width: 64px;"></a>
+    {% endif %}
+    <a href="/" ><img class="icon-nav" src="/assets/icons/home.png" style="width: 64px;"></a>
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}"><img class="icon-nav" src="/assets/icons/next.png" style="width: 64px;"></a>
+    {% endif %}
+  </div>
+</header>

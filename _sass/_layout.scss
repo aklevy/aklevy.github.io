@@ -7,16 +7,25 @@
     text-align: center;
    /* background-color: #FFA36D*/
 }
-.site-title{
+.site-title, .site-title a, .site-title a:visited{
     font-size: 30px;
     font-family: Fira Sans Condensed;
     font-weight: 700;
     text-align: center;
     vertical-align: center;
     padding-bottom: 30px;
-
+    color: $background-color;
 }
 
+.site-title a:hover {
+    color: $highlight-text-color;  
+    text-decoration: none !important;
+
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+    transition-timing-function: cubic;
+    
+}
 .site-header{
     background-color: $brand-color;
     color: $background-color;
@@ -63,23 +72,22 @@
 
 }
 
-.center-image {
+.icon-nav {
     display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 
-    background-color: transparent;
+    border: solid 2px $brand-color;
     display:inline-block;
     
-    background: transparent;
     margin: 0;
     border-radius: 100%;
     &:hover {
-       background-color: $brand-color;  
+       border-color: $background-color;  
 
-        -webkit-transition: background-color 0.2s ease-out;
-        transition: background-color 0.2s ease-out;
+        -webkit-transition: border-color 0.2s ease-out;
+        transition: border-color 0.2s ease-out;
 
         transition-timing-function: cubic;
   }
@@ -284,7 +292,8 @@
 }
 
 .post-header {
-    margin-bottom: $spacing-unit
+    margin-bottom: $spacing-unit;
+    text-align: center;
 }
 
 .post-nav {
@@ -297,9 +306,10 @@
     font-size: 40px;
     font-family: Fira Sans Condensed;
     font-weight: 900;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: inline-block; 
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     @include media-query($on-laptop) {
         font-size: 36px;
         font-family: Fira Sans Condensed;
@@ -484,8 +494,7 @@ span {
   align-content: space-around;
 }
 
-.base
-{
+.base {
     position: relative;
     top: 0;
     left: 0;
@@ -495,12 +504,25 @@ span {
     from {background-color: black;}
     to {background-color: #B2342A;}
 }
- .line
-    {
-        width: $content-width;
-        height: 3px;
+.line{
+    width: $content-width;
+    height: 3px;
        
-        background-color: red;
-        animation-name: example;
-        animation-duration: 4s;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.about{
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: $brand-color;
     }
+
+    &:hover {
+        color: $highlight-text-color;
+        text-decoration: none;
+    }
+}

@@ -100,14 +100,15 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: #dd5a33;
+        color: $highlight-text-color;
     }
 
     &:hover {
-        color: #F7230C;
+        color: $brand-color;
         text-decoration: underline;
     }
 }
+
 .title {
     color: $background-color;
     text-decoration: none;
