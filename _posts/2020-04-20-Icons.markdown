@@ -18,7 +18,7 @@ function displayImage(link) {
 </p>
 
 
-<p>Random icons I try to draw daily (or almost) since April 2020.</p>
+<p>Random icons I try to draw daily (or almost) since April 2020, in order to explore different styles.</p>
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 {% for image in site.static_files %}
     {% if image.path contains 'icon_svg' %}
