@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Random Icons"
+subtitle: ""
+preview: /assets/preview/light-bulb.png
+tags: [All, Artsy-wimey]
+color: "#fcf6bdA0"
+permalink: icons
+---
+<script>
+function displayImage(link) {
+  document.getElementById("display").src = link;
+}
+</script>
+
+<p align="center">
+    <img id="display" src="assets/preview/light-bulb.png" width="300"/>
+</p>
+
+
+<p>Random icons I try to draw daily (or almost) since April 2020.</p>
+<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+{% for image in site.static_files %}
+    {% if image.path contains 'icon_svg' %}
+<img src="{{ site.baseurl }}{{ image.path }}" width="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+    {% endif %}
+{% endfor %}
+
+</div>
