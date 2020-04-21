@@ -10,20 +10,31 @@ permalink: icons
 <script>
 function displayImage(link) {
   document.getElementById("display").src = link;
+  const path = link.split('/'); 
+  const filename = path[path.length-1];// get only the file name
+  const name_without_extension = filename.split('.');
+  document.getElementById("caption").innerHTML = name_without_extension[0];
 }
 </script>
 
 <p align="center">
     <img id="display" src="assets/preview/light-bulb.png" width="300"/>
+    <figcaption id="caption" style="text-align:center; font-size: 16px;">Icon in 300 x 300 px</figcaption>
 </p>
 
+<br/>
 
-<p>Random icons I try to draw daily (or almost) since April 2020, in order to explore different styles. Select an icon to display it above in a bigger size.</p>
+<p>Random icons I try to draw daily (or almost) since April 2020, in order to explore different styles. Select an icon below to display it above in a bigger size.</p>
+<br/>
+
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 {% for image in site.static_files %}
     {% if image.path contains 'icon_svg' %}
-<img src="{{ site.baseurl }}{{ image.path }}" width="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+<img src="{{ image.path }}" width="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
     {% endif %}
 {% endfor %}
 
 </div>
+
+<br/>
+<br/>
