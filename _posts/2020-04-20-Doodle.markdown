@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Random Icons"
+title:  "Random Doodles"
 subtitle: ""
 preview: /assets/preview/light-bulb.png
 tags: [All, Artsy-wimey]
 color: "#fcf6bdA0"
-permalink: icons
+permalink: doodles
 ---
 <script>
 function displayImage(link) {
@@ -24,7 +24,7 @@ function displayImage(link) {
 
 <br/>
 
-<p>Random icons I try to draw daily (or almost) since April 2020, in order to explore different styles. Select an icon below to display it above in a bigger size.</p>
+<p>Random doodles in svg I try to draw daily (or almost) since April 2020, in order to explore different styles and to get use to Inkscape. Select one below to display it above in a bigger size.</p>
 <br/>
 
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
