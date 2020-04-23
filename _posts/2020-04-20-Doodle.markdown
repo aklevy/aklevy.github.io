@@ -40,7 +40,7 @@ function displayImage(link) {
 
 
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle;">
-<p style="margin: 0;">One of them inspired me for a stereoscopic-like icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="margin: 0;">One of them inspired me for a simple animated stereoscopic-like icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 {% for image in site.static_files %}
     {% if image.path contains 'stereoscopic_iconset' %}

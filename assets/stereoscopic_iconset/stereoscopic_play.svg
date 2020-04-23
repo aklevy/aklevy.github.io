@@ -61,12 +61,18 @@
        inkscape:connector-curvature="0"
        id="path819"
        d="M 7.9499731,4.7998234 V 27.200177 L 26.150208,16.000001 Z"
-       style="fill:#00c6c1;fill-opacity:1;stroke:#ff0000;stroke-width:5.6000886;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.56078384;paint-order:stroke fill markers" />
+       style="fill:#00c6c1;fill-opacity:1;stroke:#ff0000;stroke-width:5.6000886;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.56078384;paint-order:stroke fill markers" >
+        <animateTransform id="anim0"  attributeName="transform" type="translate" from="0 0" to="-1.05 0" fill="freeze" dur="0.5" calcMode="spline" begin="0; anim1.end+1s" />
+        <animateTransform id="anim1" attributeName="transform" type="translate" from="-1.05 0" to="0 0" fill="freeze" dur="0.5" begin="anim0.end+1s" calcMode="spline"/>
+    </path>
     <path
        style="fill:#00c6ea;fill-opacity:1;stroke:#0000c1;stroke-width:5.6000886;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.56078384;paint-order:stroke fill markers"
        d="M 5.8500465,4.7998234 V 27.200177 L 24.050174,16.000001 Z"
        id="path9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc" >
+        <animateTransform id="anim2" attributeName="transform" type="translate" from="0 0" to="1.05 0" fill="freeze" dur="0.5" begin="0; anim3.end+1s" calcMode="spline"/>
+        <animateTransform id="anim3" attributeName="transform" type="translate" to="0 0" from="1.05 0" fill="freeze" dur="0.5"  begin="anim2.end+1s" calcMode="spline"/>
+      </path>
   </g>
 </svg>

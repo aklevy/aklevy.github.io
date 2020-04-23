@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.870881"
-     inkscape:cx="-1.7031797"
-     inkscape:cy="19.876312"
+     inkscape:zoom="16.551327"
+     inkscape:cx="3.4643037"
+     inkscape:cy="12.825671"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,14 +59,56 @@
     <circle
        r="8.7049074"
        cy="16"
-       cx="16.868179"
+       cx="16.999701"
        id="circle819"
-       style="opacity:1;vector-effect:none;fill:#00c6ea;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:4.96158743;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.5;stroke-opacity:0.56078395;paint-order:stroke fill markers" />
+       style="opacity:1;vector-effect:none;fill:#00c6ea;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:4.96158743;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.5;stroke-opacity:0.56078384;paint-order:stroke fill markers">
+      <animateTransform
+         id="anim0"
+         attributeName="transform"
+         type="translate"
+         from="0 0"
+         to="-1 0"
+         fill="freeze"
+         dur="0.5"
+         calcMode="spline"
+         begin="0; anim1.end+1s" />
+      <animateTransform
+         id="anim1"
+         attributeName="transform"
+         type="translate"
+         from="-1 0"
+         to="0 0"
+         fill="freeze"
+         dur="0.5"
+         begin="anim0.end+1s"
+         calcMode="spline" />
+    </circle>
     <circle
        style="opacity:1;vector-effect:none;fill:#00c6ea;fill-opacity:1;fill-rule:nonzero;stroke:#0000c1;stroke-width:4.96158743;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.5;stroke-opacity:0.56078384;paint-order:stroke fill markers"
        id="path9"
-       cx="15.13182"
+       cx="14.999701"
        cy="16"
-       r="8.7049074" />
+       r="8.7049074">
+      <animateTransform
+         id="anim2"
+         attributeName="transform"
+         type="translate"
+         from="0 0"
+         to="1 0"
+         fill="freeze"
+         dur="0.5"
+         begin="0; anim3.end+1s"
+         calcMode="spline" />
+      <animateTransform
+         id="anim3"
+         attributeName="transform"
+         type="translate"
+         to="0 0"
+         from="1 0"
+         fill="freeze"
+         dur="0.5"
+         begin="anim2.end+1s"
+         calcMode="spline" />
+    </circle>
   </g>
 </svg>
