@@ -61,16 +61,16 @@
        d="M 10.608279,6.5310874 7.3167463,9.8226202 13.494126,16 l -6.1773797,6.17738 3.2915327,3.291533 6.177379,-6.17738 6.17738,6.17738 L 26.254571,22.17738 20.077191,16 26.254571,9.8226202 22.963038,6.5310874 16.785658,12.708467 Z"
        id="rect825-3"
        inkscape:connector-curvature="0" >
-         <animateTransform id="anim0"  attributeName="transform" type="translate" from="0 0" to="-0.786 0" fill="freeze" dur="0.5" calcMode="spline" begin="0; anim1.end+1s" />
-        <animateTransform id="anim1" attributeName="transform" type="translate" from="-0.786 0" to="0 0" fill="freeze" dur="0.5" begin="anim0.end+1s" calcMode="spline"/>
+         <animateTransform id="anim0"  attributeName="transform" type="translate" from="0 0" to="-0.786 0" fill="freeze" dur="0.5" begin="0; anim1.end+1s" />
+        <animateTransform id="anim1" attributeName="transform" type="translate" from="-0.786 0" to="0 0" fill="freeze" dur="0.5" begin="anim0.end+1s" />
     </path>
     <path
        inkscape:connector-curvature="0"
        id="path847"
        d="M 9.0369626,6.5310874 5.7454295,9.8226202 11.922809,16 l -6.1773795,6.17738 3.2915331,3.291533 6.1773794,-6.17738 6.177379,6.17738 L 24.683254,22.17738 18.505875,16 24.683254,9.8226202 21.391721,6.5310874 15.214342,12.708467 Z"
        style="opacity:1;vector-effect:none;fill:#00c6c1;fill-opacity:1;fill-rule:nonzero;stroke:#0000c1;stroke-width:4.491045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.5;stroke-opacity:0.56078395;paint-order:stroke fill markers" >
-          <animateTransform id="anim2" attributeName="transform" type="translate" from="0 0" to="0.786 0" fill="freeze" dur="0.5" begin="0; anim3.end+1s" calcMode="spline"/>
-        <animateTransform id="anim3" attributeName="transform" type="translate" to="0 0" from="0.786 0" fill="freeze" dur="0.5"  begin="anim2.end+1s" calcMode="spline"/>
+          <animateTransform id="anim2" attributeName="transform" type="translate" from="0 0" to="0.786 0" fill="freeze" dur="0.5" begin="0; anim3.end+1s" />
+        <animateTransform id="anim3" attributeName="transform" type="translate" to="0 0" from="0.786 0" fill="freeze" dur="0.5"  begin="anim2.end+1s" />
       </path>
   </g>
 </svg>

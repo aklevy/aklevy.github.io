@@ -61,8 +61,8 @@
        d="m 5.722059,13.672535 v 4.65493 h 8.736134 l 1e-6,8.736134 4.65493,1e-6 -10e-7,-8.736134 h 8.736135 V 13.672535 H 19.113123 V 4.9364004 l -4.65493,1e-7 v 8.7361345 z"
        id="red-path"
        inkscape:connector-curvature="0" >
-         <animateTransform id="anim0"  attributeName="transform" type="translate" from="0 0" to="-0.786 0" fill="freeze" dur="0.5" calcMode="spline" begin="0; anim1.end+1s" />
-        <animateTransform id="anim1" attributeName="transform" type="translate" from="-0.786 0" to="0 0" fill="freeze" dur="0.5" begin="anim0.end+1s" calcMode="spline"/>
+         <animateTransform id="anim0"  attributeName="transform" type="translate" from="0 0" to="-0.786 0" fill="freeze" dur="0.5"  begin="0; anim1.end+1s" />
+        <animateTransform id="anim1" attributeName="transform" type="translate" from="-0.786 0" to="0 0" fill="freeze" dur="0.5" begin="anim0.end+1s" />
     </path>
   
     <path
@@ -70,8 +70,8 @@
        id="blue-path"
        d="m 4.1507424,13.672534 -2e-7,4.654931 h 8.7361338 l 10e-7,8.736134 h 4.654931 l -1e-6,-8.736134 8.736134,1e-6 V 13.672535 H 17.541807 V 4.9364004 l -4.654931,2e-7 v 8.7361344 z"
        style="opacity:1;vector-effect:none;fill:#00c6ea;fill-opacity:1;fill-rule:nonzero;stroke:#0000c1;stroke-width:4.491045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.5;stroke-opacity:0.56078384;paint-order:stroke fill markers" >
-          <animateTransform id="anim2" attributeName="transform" type="translate" from="0 0" to="0.786 0" fill="freeze" dur="0.5" begin="0; anim3.end+1s" calcMode="spline"/>
-        <animateTransform id="anim3" attributeName="transform" type="translate" to="0 0" from="0.786 0" fill="freeze" dur="0.5"  begin="anim2.end+1s" calcMode="spline"/>
+          <animateTransform id="anim2" attributeName="transform" type="translate" from="0 0" to="0.786 0" fill="freeze" dur="0.5" begin="0; anim3.end+1s" />
+        <animateTransform id="anim3" attributeName="transform" type="translate" to="0 0" from="0.786 0" fill="freeze" dur="0.5"  begin="anim2.end+1s" />
       </path>
   </g>
   

@@ -70,7 +70,7 @@
          to="-1 0"
          fill="freeze"
          dur="0.5"
-         calcMode="spline"
+         
          begin="0; anim1.end+1s" />
       <animateTransform
          id="anim1"
@@ -81,7 +81,7 @@
          fill="freeze"
          dur="0.5"
          begin="anim0.end+1s"
-         calcMode="spline" />
+          />
     </circle>
     <circle
        style="opacity:1;vector-effect:none;fill:#00c6ea;fill-opacity:1;fill-rule:nonzero;stroke:#0000c1;stroke-width:4.96158743;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.5;stroke-opacity:0.56078384;paint-order:stroke fill markers"
@@ -98,7 +98,7 @@
          fill="freeze"
          dur="0.5"
          begin="0; anim3.end+1s"
-         calcMode="spline" />
+          />
       <animateTransform
          id="anim3"
          attributeName="transform"
@@ -108,7 +108,7 @@
          fill="freeze"
          dur="0.5"
          begin="anim2.end+1s"
-         calcMode="spline" />
+          />
     </circle>
   </g>
 </svg>
