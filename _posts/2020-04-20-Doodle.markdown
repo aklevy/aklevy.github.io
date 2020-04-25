@@ -25,7 +25,7 @@ function displayImage(link) {
 }
 </script>
 
-<p>Random doodles in svg I try to draw daily (or almost) since April 2020, in order to explore different styles and to get use to Inkscape. Select one in the list to display it multiple size.</p>
+<p>Random doodles in svg I try to draw daily (or almost) since April 2020, in order to explore different styles and to get use to Inkscape. Select one in the list to display it in multiple size.</p>
 <br/>
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -64,16 +64,29 @@ function displayImage(link) {
 <br/>
 
 
+<h3>Some iconset inspired from the icons above: </h3x>
+
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle;">
-<p style="margin: 0;">One of them inspired me for a simple animated stereoscopic-like icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="margin: 0;">Stereoscopic-like animated icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 {% for image in site.static_files %}
     {% if image.path contains 'stereoscopic_iconset' %}
-<img src="{{ image.path }}" width="32px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+<img src="{{ image.path }}" width="32px" height="32px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
     {% endif %}
 {% endfor %}
 
 </div> 
 
+
+<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle;">
+<p style="margin: 0;">Pop pastel color icon set (48 x 48 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+{% for image in site.static_files %}
+    {% if image.path contains 'pastel_pop_iconset' %}
+<img src="{{ image.path }}" width="48px" height="48px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+    {% endif %}
+{% endfor %}
+
+</div> 
 <br/>
 <br/>
