@@ -28,24 +28,22 @@ function displayImage(link) {
 <p>Random doodles in svg I try to draw daily (or almost) since April 2020, in order to explore different styles and to get use to Inkscape. Select one in the list to display it in multiple size.</p>
 <br/>
 
-<div style="display: flex; justify-content: center; align-items: center;">
-    <div style="display: flex; flex-direction: column;justify-content: center; align-items: center;">
-        <figure style="padding: 1em;">
-            <img id="display32" src="assets/preview/light-bulb.png" width="32px" height="32px"/>
-            <figcaption id="caption_small" style="text-align:center; font-size: 16px;">32px</figcaption>
-        </figure>
-        <figure style="padding: 1em;">
-            <img id="display64" src="assets/preview/light-bulb.png" width="64px" height="64px"/>
-            <figcaption id="caption_small" style="text-align:center; font-size: 16px;">64px</figcaption>
-        </figure>
-        <figure style="padding: 1em;">
-            <img id="display128" src="assets/preview/light-bulb.png" width="128px" height="128px"/>
-            <figcaption id="caption_small" style="text-align:center; font-size: 16px;">128px</figcaption>
-        </figure>
-    </div>
-    <figure style="padding: 1em;">
-        <img id="display" src="assets/preview/light-bulb.png" width="300px" height="300px"/>
-        <figcaption id="caption" style="text-align:center; font-size: 16px;">300px</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+    <figure style="padding: 1em; margin: 0;">
+        <img id="display32" src="assets/preview/light-bulb.png" width="32px" height="32px"/>
+        <figcaption id="caption_small" style="text-align:center; font-size: 16px;">32px</figcaption>
+    </figure>
+    <figure style="padding: 0.5em; margin: 0;">
+        <img id="display64" src="assets/preview/light-bulb.png" width="64px" height="64px"/>
+        <figcaption id="caption_small" style="text-align:center; font-size: 16px;">64px</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+        <img id="display128" src="assets/preview/light-bulb.png" width="128px" height="128px"/>
+        <figcaption id="caption_small" style="text-align:center; font-size: 16px;">128px</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+        <img id="display" src="assets/preview/light-bulb.png" width="200px" height="200px"/>
+        <figcaption id="caption" style="text-align:center; font-size: 16px;">200px</figcaption>
     </figure>
 </div>
 <figcaption id="icon_title" style="text-align:center; font-size: 20px;">04_light-bulb</figcaption>
