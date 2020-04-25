@@ -31,20 +31,20 @@ function displayImage(link) {
 <div style="display: flex; justify-content: center; align-items: center;">
     <div style="display: flex; flex-direction: column;justify-content: center; align-items: center;">
         <figure style="padding: 1em;">
-            <img id="display32" src="assets/preview/light-bulb.png" width="32"/>
+            <img id="display32" src="assets/preview/light-bulb.png" width="32px" height="32px"/>
             <figcaption id="caption_small" style="text-align:center; font-size: 16px;">32px</figcaption>
         </figure>
         <figure style="padding: 1em;">
-            <img id="display64" src="assets/preview/light-bulb.png" width="64"/>
+            <img id="display64" src="assets/preview/light-bulb.png" width="64px" height="64px"/>
             <figcaption id="caption_small" style="text-align:center; font-size: 16px;">64px</figcaption>
         </figure>
         <figure style="padding: 1em;">
-            <img id="display128" src="assets/preview/light-bulb.png" width="128"/>
+            <img id="display128" src="assets/preview/light-bulb.png" width="128px" height="128px"/>
             <figcaption id="caption_small" style="text-align:center; font-size: 16px;">128px</figcaption>
         </figure>
     </div>
     <figure style="padding: 1em;">
-        <img id="display" src="assets/preview/light-bulb.png" width="300"/>
+        <img id="display" src="assets/preview/light-bulb.png" width="300px" height="300px"/>
         <figcaption id="caption" style="text-align:center; font-size: 16px;">300px</figcaption>
     </figure>
 </div>
@@ -64,7 +64,7 @@ function displayImage(link) {
 <br/>
 
 
-<h3>Some iconset inspired from the icons above: </h3x>
+<h3>Some iconset inspired from the icons above: </h3>
 
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle;">
 <p style="margin: 0;">Stereoscopic-like animated icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
