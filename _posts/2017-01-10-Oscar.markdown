@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Oscar"
+title:  "Mascot Oscar"
 date: 2017-01-08
 preview: /assets/preview/oscar-preview.png
 tags: [All, Artsy-wimey]

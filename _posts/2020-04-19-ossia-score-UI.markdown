@@ -1,17 +1,11 @@
 ---
 layout: post
-title:  "ossia score"
-preview: /assets/preview/scoreLogo_300.png
+title:  "ossia score UI"
+preview: /assets/preview/scoreUI_300.png
 tags: [All, Programming, UI/UX, C++, Qt/QML]
-color: "#32B4FFC0"
-permalink: ossiaScore
+color: "#C1C1C1C0"
+permalink: ossiaScoreUI
 ---
-
-
-<p align="center">
-    <img src="/assets/scoreLogo.png" width="300"/>
-</p>
-
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/OSSIA/score/master/docs/score.png">
@@ -19,9 +13,7 @@ permalink: ossiaScore
   </a>
 </p>
 
-Contribution to the graphic design of [ossia score](https://github.com/OSSIA/score), an open source project for an interactive intermedia sequencer for audio visual artists. I designed the current logo (image above) by taking hints from the UI: dash, lines correspond to the timeline representation and the triangle is for the trigger. As the [website](https://ossia.io/) was getting old, since it was already using Wordpress, I chose a modern theme and tweaked it a bit. 
-
-Later on, as I was starting to be quite involved in the project, I decided to work on the UI too, as it was another one of these interesting graphic aspects for which I could participate as both designer and developper.
+Contribution to the graphic design of [ossia score](https://github.com/OSSIA/score), an open source project for an interactive intermedia sequencer for audio visual artists. As I was already involved in this project by creating the current logo and website, I decided to work on the UI too, as it was another one of these interesting graphic aspects for which I could participate as both designer and developper.
 
 So from here, I will explain the main UI evolution steps of ossia score for which I was involved (between 07/2018 to 08/2019). It is more a reminder for myself of the reasons behind the changes I have done, so there might be too much details.
 
