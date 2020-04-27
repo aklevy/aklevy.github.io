@@ -51,7 +51,7 @@ The main goal was to create a modern logo with the notion of time and taking hin
   </div>
   <div class="timeline-container timeline-right">
     <div class="timeline-content">
-      <h2>Simplification and shadow</h2>
+      <h2>Adding shadow</h2>
       <p>Removed the borders and added shadow.</p>
       <p align="center"> <img src="/assets/score_logo/archive_logo/ver11_blancPlan de travail 1.png" width="200px" height="auto"></p>
     </div>

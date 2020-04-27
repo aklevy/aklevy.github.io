@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "QML Creative Controls"
-preview: /assets/preview/angleSlider-preview.png
+title:  "QmlCreativeControls"
+<!-- preview: /assets/preview/qml_logo_centered-300.png -->
+preview: /assets/preview/qml_cc_angle_slider.svg
 tags: [All, Programming, Qt/QML, UI/UX, C++]
 color: "#94b23aC0"
 permalink: QMLCreativeControls
