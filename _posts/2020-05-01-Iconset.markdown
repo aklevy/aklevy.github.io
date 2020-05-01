@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Iconset"
+subtitle: ""
+preview: /assets/preview/iconset-preview.svg
+tags: [All, Artsy-wimey, UI/UX]
+color: "#00B7B3A0"
+permalink: iconset
+---
+<script>
+function displayImage(link) {
+  document.getElementById("display32").src = link;
+  document.getElementById("display64").src = link;
+  document.getElementById("display128").src = link;
+  document.getElementById("display").src = link;
+}
+</script>
+
+<p>Iconset inspired from my daily random doodle on a white background for better visibility. Click one to view in bigger size above.</p>
+<br/>
+
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; background-color: white;">
+    <figure style="padding: 1em; margin: 0;">
+        <img id="display32" src="assets/stereoscopic_iconset/stereoscopic_play.svg" width="32px" height="32px" />
+        <figcaption id="caption_small" style="text-align:center; font-size: 16px;">32px</figcaption>
+    </figure>
+    <figure style="padding: 0.5em; margin: 0;">
+        <img id="display64" src="assets/stereoscopic_iconset/stereoscopic_play.svg" width="64px" height="64px"/>
+        <figcaption id="caption_small" style="text-align:center; font-size: 16px;">64px</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+        <img id="display128" src="assets/stereoscopic_iconset/stereoscopic_play.svg" width="128px" height="128px"/>
+        <figcaption id="caption_small" style="text-align:center; font-size: 16px;">128px</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+        <img id="display" src="assets/stereoscopic_iconset/stereoscopic_play.svg" width="200px" height="200px"/>
+        <figcaption id="caption" style="text-align:center; font-size: 16px;">200px</figcaption>
+    </figure>
+</div>
+<br/>
+
+<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle; background-color: white;">
+<p style="margin: 0;">Stereoscopic-like animated icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+{% for image in site.static_files %}
+    {% if image.path contains 'stereoscopic_iconset' %}
+<img src="{{ image.path }}" width="32px" height="32px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+    {% endif %}
+{% endfor %}
+
+</div> 
+
+
+<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle; background-color: white;">
+<p style="margin: 0;">Pop pastel color icon set (48 x 48 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+{% for image in site.static_files %}
+    {% if image.path contains 'pastel_pop_iconset' %}
+<img src="{{ image.path }}" width="48px" height="48px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+    {% endif %}
+{% endfor %}
+
+</div> 
+
+
+<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle; background-color: white;">
+<p style="margin: 0;">Retro communist color animated icon set (48 x 48 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+{% for image in site.static_files %}
+    {% if image.path contains 'retro_communist_iconset' %}
+<img src="{{ image.path }}" width="48px" height="48px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+    {% endif %}
+{% endfor %}
+
+</div> 
+<br/>
+<br/>

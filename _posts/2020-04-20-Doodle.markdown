@@ -60,31 +60,5 @@ function displayImage(link) {
 </div>
 
 <br/>
-
-
-<h3>Some iconset inspired from the icons above: </h3>
-
-<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle;">
-<p style="margin: 0;">Stereoscopic-like animated icon set (32 x 32 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-{% for image in site.static_files %}
-    {% if image.path contains 'stereoscopic_iconset' %}
-<img src="{{ image.path }}" width="32px" height="32px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
-    {% endif %}
-{% endfor %}
-
-</div> 
-
-
-<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle;">
-<p style="margin: 0;">Pop pastel color icon set (48 x 48 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-{% for image in site.static_files %}
-    {% if image.path contains 'pastel_pop_iconset' %}
-<img src="{{ image.path }}" width="48px" height="48px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
-    {% endif %}
-{% endfor %}
-
-</div> 
 <br/>
 <br/>
