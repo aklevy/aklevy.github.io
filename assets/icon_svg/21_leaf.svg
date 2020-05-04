@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="48"
+   inkscape:export-xdpi="48"
+   inkscape:export-filename="/home/alevy/dev/score/src/lib/resources/icons/new_file_off.png"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   height="32"
+   width="32"
+   sodipodi:docname="21_leaf.svg"
+   xml:space="preserve"
+   viewBox="0 0 32 32"
+   y="0px"
+   x="0px"
+   id="Calque_1"
+   version="1.1"><metadata
+   id="metadata17"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>boutons</dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs15" /><sodipodi:namedview
+   inkscape:document-rotation="0"
+   inkscape:current-layer="layer1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="0"
+   inkscape:window-x="0"
+   inkscape:cy="12.012863"
+   inkscape:cx="8.6342095"
+   inkscape:zoom="13.195079"
+   showgrid="false"
+   id="namedview13"
+   inkscape:window-height="1015"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<style
+   id="style2"
+   type="text/css">
+	.st0{display:none;fill:#3D3D3D;}
+	.st1{display:none;fill:#000100;}
+	.st2{fill:#808080;}
+</style>
+<title
+   id="title4">boutons</title>
+<rect
+   style="display:none;fill:#3d3d3d"
+   id="rect6"
+   height="27.9"
+   width="27.9"
+   class="st0"
+   y="3.5999985"
+   x="0.5" />
+<path
+   style="display:none;fill:#000100"
+   inkscape:connector-curvature="0"
+   id="path8"
+   d="M 28.9,32 H 0 V 3.1 H 28.9 Z M 1,31 H 27.9 V 4.1 H 1 Z"
+   class="st1" />
+
+<g
+   transform="translate(0,3.1)"
+   style="display:inline"
+   inkscape:label="Icon"
+   id="layer1"
+   inkscape:groupmode="layer"><path
+     sodipodi:nodetypes="ccccccccccc"
+     id="path843"
+     d="m 16.385388,-0.33660195 -4.265456,6.41425575 -1.705671,6.1716842 1.529315,4.237653 2.194259,1.784123 c 0.712111,0.193448 2.075085,0.371387 2.910242,-0.740445 l 4.031236,-3.661336 0.259488,-5.012652 -2.19223,-5.4593938 -1.800456,-2.57076605 z"
+     style="fill:#b7ce63;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1" /><path
+     sodipodi:nodetypes="cscc"
+     id="path16"
+     d="m 15.431651,25.712629 c 0,0 2.342433,-5.242241 1.315488,-7.882617 -2.71636,-6.98403 -0.361751,-18.16661396 -0.361751,-18.16661396 0,0 -11.2943059,13.65129696 -2.247553,18.60771596"
+     style="fill:none;fill-opacity:1;stroke:#8fb339;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1" /><path
+     sodipodi:nodetypes="cc"
+     id="path18"
+     d="M 16.385388,-0.33660195 C 23.879301,8.9864507 21.940757,15.37335 17.048077,17.530669"
+     style="fill:none;stroke:#8fb339;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1" /></g></svg>
