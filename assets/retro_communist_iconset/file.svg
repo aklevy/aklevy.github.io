@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Calque_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 32 32"
+   xml:space="preserve"
+   sodipodi:docname="file.svg"
+   width="32"
+   height="32"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:export-filename="/home/alevy/dev/score/src/lib/resources/icons/new_file_off.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"><metadata
+   id="metadata17"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>boutons</dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs15" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1015"
+   id="namedview13"
+   showgrid="false"
+   inkscape:zoom="15.475706"
+   inkscape:cx="8.2232392"
+   inkscape:cy="20.561354"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer1"
+   inkscape:document-rotation="0" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{display:none;fill:#3D3D3D;}
+	.st1{display:none;fill:#000100;}
+	.st2{fill:#808080;}
+</style>
+<title
+   id="title4">boutons</title>
+<rect
+   x="0.5"
+   y="3.5999985"
+   class="st0"
+   width="27.9"
+   height="27.9"
+   id="rect6"
+   style="display:none;fill:#3d3d3d" />
+<path
+   class="st1"
+   d="M 28.9,32 H 0 V 3.1 H 28.9 Z M 1,31 H 27.9 V 4.1 H 1 Z"
+   id="path8"
+   inkscape:connector-curvature="0"
+   style="display:none;fill:#000100" />
+
+<g
+   inkscape:groupmode="layer"
+   id="layer1"
+   inkscape:label="Icon"
+   style="display:inline"
+   transform="translate(0,3.1)">
+    <circle
+     r="6"
+     cy="12.9"
+     cx="16"
+     id="path16"
+     style="fill:#efe1c7;fill-opacity:1;stroke-width:0.513485;stroke-linejoin:round;stroke-miterlimit:4.6" >
+        <animate id="anim0" attributeName="r" dur="2s" from="6" to="12" fill="freeze" begin="0; anim1.end+3s"/>
+        <animate id="anim1" attributeName="r" dur="1s" from="12" to="6" fill="freeze" begin="anim0.end+1s" />
+    </circle>
+    <path
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#be3839;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     d="m 18.028994,3.2915999 6.159434,5.9565414 M 7.811653,6.6560571 7.811572,4.41197 C 7.81155,3.7912013 8.269953,3.2915486 8.838624,3.2915414 l 9.19037,-1.916e-4 v 5.9567915 h 6.159434 V 21.388129 c 0,0.620768 -0.458003,1.120521 -1.026674,1.120521 H 8.838624 C 8.346811,22.4936 7.811222,21.936246 7.811897,21.388318 l -8.1e-5,-2.244087 z"
+     id="rect12"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccscccccscccc" /></g></svg>
