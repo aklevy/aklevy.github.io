@@ -51,7 +51,8 @@ function displayImage(link) {
 <br/>
 
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-{% for image in site.static_files %}
+
+{% for image in site.static_files reversed %}
     {% if image.path contains 'icon_svg' %}
 <img src="{{ image.path }}" width="64px" height="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
     {% endif %}
