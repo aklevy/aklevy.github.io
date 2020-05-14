@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="stereoscopic_mouse-pointer.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg16"
+   version="1.1"
+   viewBox="0 0 32 32"
+   height="32px"
+   width="32px">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:snap-global="false"
+     inkscape:snap-bbox="true"
+     inkscape:pagecheckerboard="false"
+     units="px"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1015"
+     inkscape:window-width="1920"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer2"
+     inkscape:document-units="px"
+     inkscape:cy="15.819517"
+     inkscape:cx="19.031278"
+     inkscape:zoom="34.666414"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       id="grid18"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="opacity:1"
+     inkscape:label="Calque 2"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path840"
+       d="m 11.666805,8.235762 v 15.111433 l 3.582317,-3.878211 2.53967,4.295053 2.031941,-1.201137 -2.336045,-4.549135 h 4.848976 z"
+       style="fill:#00c6ea;fill-opacity:1;stroke:#ff0000;stroke-width:3.55561;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.560784;paint-order:stroke markers fill">
+      <animateTransform
+         id="anim0"
+         attributeName="transform"
+         type="translate"
+         from="0 0"
+         to="-1 0"
+         fill="freeze"
+         dur="0.5"
+         begin="0; anim1.end+1s" />
+      <animateTransform
+         id="anim1"
+         attributeName="transform"
+         type="translate"
+         from="-1 0"
+         to="0 0"
+         fill="freeze"
+         dur="0.5"
+         begin="anim0.end+1s" />
+    </path>
+    <path
+       style="fill:#00c6ea;fill-opacity:1;stroke:#0000c1;stroke-width:3.55561;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.560784;paint-order:stroke markers fill"
+       d="m 9.666805,8.235802 v 15.111433 l 3.582317,-3.878211 2.539671,4.295053 2.03194,-1.201137 -2.336045,-4.549135 h 4.848976 z"
+       id="path836"
+       sodipodi:nodetypes="cccccccc">
+      <animateTransform
+         id="anim2"
+         attributeName="transform"
+         type="translate"
+         from="0 0"
+         to="1 0"
+         fill="freeze"
+         dur="0.5"
+         begin="0; anim3.end+1s" />
+      <animateTransform
+         id="anim3"
+         attributeName="transform"
+         type="translate"
+         to="0 0"
+         from="1 0"
+         fill="freeze"
+         dur="0.5"
+         begin="anim2.end+1s" />
+    </path>
+  </g>
+</svg>
