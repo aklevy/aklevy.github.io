@@ -522,3 +522,36 @@ span {
         text-decoration: none;
     }
 }
+
+.custom-cursor{
+    text-align: center;
+    width:330px;
+    height:120px;
+    background-color: #161514; 
+    line-height: 120px;
+}
+.custom-cursor h3{
+    color: $background-color;
+    font-weight: 600;
+}
+
+.custom-cursor.hand{
+    cursor: url('/assets/mouse_pointer/cursor_open_hand.svg'), auto;
+}
+.custom-cursor.hand:active{
+    cursor: url('/assets/mouse_pointer/cursor_closed_hand.svg'), auto;
+}
+
+.custom-drag-cursor{
+    text-align: center;
+    width:200px;
+    height:120px;
+    background-color: #161514; 
+    line-height: 120px;
+}
+
+.custom-drag-cursor h3{
+    color: $background-color;
+    font-weight: 600;
+}
+
