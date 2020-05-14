@@ -44,7 +44,7 @@ function displayImage(link) {
 
 {% for image in site.static_files %}
     {% if image.path contains 'stereoscopic_iconset' %}
-<img src="{{ image.path }}" width="32px" height="32px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+<img src="{{ image.path }}" width="32px" height="32px" title="{{ image.path }}" onclick="displayImage(this.src)" style="    cursor: url('/icons_svg/hand_link.svg'), auto;;" />
     {% endif %}
 {% endfor %}
 
@@ -56,7 +56,8 @@ function displayImage(link) {
 
 {% for image in site.static_files %}
     {% if image.path contains 'pastel_pop_iconset' %}
-<img src="{{ image.path }}" width="48px" height="48px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+<img src="{{ image.path }}" width="48px" height="48px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: url('/icons_svg/hand_link.svg'), auto;
+" />
     {% endif %}
 {% endfor %}
 

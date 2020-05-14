@@ -23,12 +23,13 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     width: 100%;
+    
+    cursor: url('/icons_svg/cursor_pointer.svg'), auto;
 }
 
 :lang(ja){
 	font-family: "Rounded Mplus 1c";
 }
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -98,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #3f00c1;
     text-decoration: none;
+    cursor: url('/icons_svg/hand_link.svg'), auto;
 
     &:visited {
         color: $highlight-text-color;
