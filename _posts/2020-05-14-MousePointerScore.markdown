@@ -62,10 +62,14 @@ Made some custom mouse cursors for [ossia score](https://github.com/OSSIA/score)
 </div>
 <br/>
 
-Also made mouse pointers for when dragging a process:
+Also made mouse pointers for when dragging an item:
 <br/>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;align-content: space-between;">
+
+<div class="custom-drag-cursor" style="cursor: url('/assets/mouse_pointer/cursor_drag_device.svg'), auto; ">
+<h3>Device<br/><img src="/assets/mouse_pointer/cursor_drag_device.svg"/></h3>
+</div>
 
 <div class="custom-drag-cursor" style="cursor: url('/assets/mouse_pointer/cursor_process_audio.svg'), auto; ">
 <h3>Audio<br/><img src="/assets/mouse_pointer/cursor_process_audio.svg"/></h3>
