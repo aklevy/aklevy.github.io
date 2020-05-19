@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="32px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="36_simple_eye.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="35.722327"
+     inkscape:cx="20.621837"
+     inkscape:cy="13.218556"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     inkscape:document-rotation="0"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid11" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="opened"
+     inkscape:groupmode="layer"
+      opacity="1"
+     id="layer1">
+         <animate id="animation1"
+             attributeName="opacity"
+             from="1" to="0" dur="0.1s"
+             fill="freeze"
+             begin="0s;animation2.end+1s" />
+        <animate id="animation2"
+             attributeName="opacity"
+             from="0" to="1" dur="0.1s"
+                 fill="freeze"
+             begin="animation1.end+1s" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 6,16 c 7,7 13,7 20,0 C 19,9 13,9 6,16 Z"
+       id="path17"
+       sodipodi:nodetypes="ccc" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.12499;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path19"
+       cx="16"
+       cy="16"
+       r="4.25" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="closed"
+     id="layer2"
+     opacity="0"
+     inkscape:groupmode="layer">
+      <animate id="animation3"
+             attributeName="opacity"
+             from="0" to="1" dur="0.1s"
+             fill="freeze"
+             begin="0s;animation4.end+1s" />
+        <animate id="animation4"
+             attributeName="opacity"
+             from="1" to="0" dur="0.1s"
+                 fill="freeze"
+             begin="animation3.end+1s" />
+    <path
+       sodipodi:nodetypes="ccc"
+       id="path841"
+       d="m 6,16 c 7,7 13,7 20,0 -8,5 -12,5 -20,0 z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
