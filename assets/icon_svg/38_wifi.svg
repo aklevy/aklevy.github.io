@@ -22,13 +22,37 @@
      id="defs31">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient896">
+      <stop
+         style="stop-color:#f03de7;stop-opacity:1"
+         offset="0"
+         id="stop892" />
+      <stop
+         style="stop-color:#7394e6;stop-opacity:1"
+         offset="1"
+         id="stop894" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient890">
+      <stop
+         style="stop-color:#f03de7;stop-opacity:1"
+         offset="0"
+         id="stop886" />
+      <stop
+         style="stop-color:#7394e6;stop-opacity:1"
+         offset="1"
+         id="stop888" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient857">
       <stop
-         style="stop-color:#2f64e6;stop-opacity:1"
+         style="stop-color:#7394e6;stop-opacity:1"
          offset="0"
          id="stop853" />
       <stop
-         style="stop-color:#f0a93d;stop-opacity:1"
+         style="stop-color:#f03de7;stop-opacity:1"
          offset="1"
          id="stop855" />
     </linearGradient>
@@ -36,11 +60,11 @@
        inkscape:collect="always"
        id="linearGradient851">
       <stop
-         style="stop-color:#2f64e6;stop-opacity:1"
+         style="stop-color:#7394e6;stop-opacity:1"
          offset="0"
          id="stop847" />
       <stop
-         style="stop-color:#f0a93d;stop-opacity:1"
+         style="stop-color:#f03de7;stop-opacity:1"
          offset="1"
          id="stop849" />
     </linearGradient>
@@ -50,11 +74,11 @@
       <stop
          id="stop835"
          offset="0"
-         style="stop-color:#2f64e6;stop-opacity:1" />
+         style="stop-color:#7394e6;stop-opacity:1" />
       <stop
          id="stop837"
          offset="1"
-         style="stop-color:#f0a93d;stop-opacity:1" />
+         style="stop-color:#f03de7;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -83,6 +107,28 @@
        id="linearGradient845"
        xlink:href="#linearGradient851"
        inkscape:collect="always" />
+    <radialGradient
+       gradientTransform="matrix(0.00380915,-1.9987442,2.6721251,0.00509251,-48.134128,56.036026)"
+       gradientUnits="userSpaceOnUse"
+       r="3"
+       fy="23.97826"
+       fx="16.071409"
+       cy="23.97826"
+       cx="16.071409"
+       id="radialGradient882"
+       xlink:href="#linearGradient896"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.0038095,-1.998744,2.6721254,0.00509285,-48.286814,55.892994)"
+       r="3.0000001"
+       fy="24.035498"
+       fx="16"
+       cy="24.035498"
+       cx="16"
+       id="radialGradient884"
+       xlink:href="#linearGradient890"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -91,7 +137,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="21.750351"
+     inkscape:zoom="20.348259"
      inkscape:cx="18.102871"
      inkscape:cy="15.450918"
      inkscape:document-units="px"
@@ -136,16 +182,16 @@
        d="M 6.9190615,15.097897 C 12.992029,10.098684 19.492834,10.21413 25.063605,15.015821"
        style="fill:none;stroke:url(#linearGradient843);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       style="fill:none;stroke:url(#linearGradient841);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:url(#linearGradient841);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        d="M 9.9741501,19.760527 C 13.748581,15.934598 18.963606,16.214485 21.980941,19.707892"
        id="path838"
        sodipodi:nodetypes="cc" />
     <ellipse
-       style="fill:#f0a93d;fill-opacity:1;stroke:#f0a93d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#radialGradient882);fill-opacity:1;stroke:url(#radialGradient884);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
        id="path840"
        cx="16"
-       cy="23.535498"
-       rx="2"
-       ry="1.9999998" />
+       cy="24.035498"
+       rx="2.4000001"
+       ry="2.3999996" />
   </g>
 </svg>
