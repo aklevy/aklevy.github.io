@@ -25,7 +25,7 @@ function displayImage(link) {
 }
 </script>
 
-<p>Random doodles in svg I try to draw daily (or almost) since April 2020, in order to explore different styles and to get use to Inkscape. Select one in the list to display it in multiple size.</p>
+<p>Random doodles in svg I have drawn (almost) daily during quarantine (April 2020 - June 2020), in order to explore different styles and to get use to Inkscape. Select one in the list to display it in multiple size.</p>
 <br/>
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
