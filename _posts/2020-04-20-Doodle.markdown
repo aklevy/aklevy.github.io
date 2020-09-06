@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Random Doodles"
+title:  "Quarantine Doodles"
 subtitle: ""
 preview: /assets/preview/light-bulb.png
 tags: [All, Artsy-wimey]

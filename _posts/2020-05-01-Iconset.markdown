@@ -74,5 +74,17 @@ function displayImage(link) {
 {% endfor %}
 
 </div> 
+
+
+<div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; vertical-align: middle; background-color: white;">
+<p style="margin: 0;">Cute and simple icon set (64 x 64 px): &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+{% for image in site.static_files %}
+    {% if image.path contains 'cute_simple_iconset' %}
+<img src="{{ image.path }}" width="64px" height="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: pointer;" />
+    {% endif %}
+{% endfor %}
+
+</div> 
 <br/>
 <br/>
