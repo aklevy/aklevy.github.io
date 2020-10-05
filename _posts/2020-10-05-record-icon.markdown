@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Record Icon"
-preview: /assets/preview/old_record_on.svg
+preview: /assets/preview/record_preview.svg
 tags: [All, Artsy-wimey, UI/UX]
 color: "#f61919C0"
 permalink: record
