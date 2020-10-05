@@ -4,7 +4,7 @@ title:  "Record Icon"
 preview: /assets/preview/old_record_on.svg
 tags: [All, Artsy-wimey, UI/UX]
 color: "#f61919C0"
-permalink: ossiaScoreLogo
+permalink: record
 ---
 
 <div style="text-align: center; width:100%;height:16px; background: url('/assets/record_icon/old_record_off.svg');">
