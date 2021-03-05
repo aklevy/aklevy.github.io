@@ -11,17 +11,17 @@ permalink: food-pattern
 
 
 <p align="center">
-    <img src="/assets/egg.png"/>
+    <img src="/assets/food_pattern/egg.png"/>
 </p>
 
 Trying out some food graphics and pattern making.
 
 <p align="center">
-    <img src="/assets/lemon.png"/>
+    <img src="/assets/food_pattern/lemon.png"/>
 </p>
 <p align="center">
-    <img src="/assets/pasta.png"/>
+    <img src="/assets/food_pattern/pasta.png"/>
 </p>
 <p align="center">
-    <img src="/assets/mushroom.png"/>
+    <img src="/assets/food_pattern/mushroom.png"/>
 </p>

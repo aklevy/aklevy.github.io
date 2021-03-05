@@ -10,7 +10,7 @@ permalink: waves
 
 
 <p align="center">
-    <img src="/assets/pattern_2.png"/>
+    <img src="/assets/waves_pattern/pattern_2.png"/>
 </p>
 
 Made with openFrameworks, source code available on [Github](https://github.com/aklevy/pattern_2).
@@ -18,5 +18,5 @@ Made with openFrameworks, source code available on [Github](https://github.com/a
 Waves keeps changing its color/amplitude/frequency and moves along the x axis. 
 
 <p align="center">
-  <img src="/assets/pattern_2_compressed.gif"/>
+  <img src="/assets/waves_pattern/pattern_2_compressed.gif"/>
 </p>

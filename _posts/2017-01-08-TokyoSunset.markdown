@@ -3,7 +3,7 @@ layout: post
 title:  "Tokyo Sunset"
 date: 2017-01-08
 preview: /assets/preview/fuji-preview.png
-tags: [All, Artsy-wimey]
+tags: [All, Photography]
 color: "#ffb711C0"
 permalink: tokyoSunset
 
@@ -11,15 +11,15 @@ permalink: tokyoSunset
 
 
 <p align="center">
-    <img src="/assets/fuji.jpg"/>
+    <img src="/assets/photos/fuji.jpg"/>
 </p>
 
 Picture of the mount Fuji at sunset from Tokyo and random Tokyo building pictures.
 
 
 <p align="center">
-    <img src="/assets/tokyo-sunset.jpg"/>
+    <img src="/assets/photos/tokyo-sunset.jpg"/>
 </p>
 <p align="center">
-    <img src="/assets/tokyo-sunset-1.JPG"/>
+    <img src="/assets/photos/tokyo-sunset-1.JPG"/>
 </p>

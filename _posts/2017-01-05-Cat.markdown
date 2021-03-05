@@ -10,16 +10,16 @@ permalink: cat
 ---
 
 <p align="center">
-  <img src="/assets/cat.png"/>
+  <img src="/assets/cat/cat.png"/>
 </p>
 
 Vector graphic of my cat with big round eyes. The bottom one is the one I actually started with, it then evolved to the top one, which is much simpler and less realistic. 
 
 <p align="center">
-    <img src="/assets/cat_by_the_window.png"/>
+    <img src="/assets/cat/cat_by_the_window.png"/>
 </p>
 
 And a picture I took for comparison:
 <p align="center">
-    <img src="/assets/cat_photo.JPG"/>
+    <img src="/assets/cat/cat_photo.JPG"/>
 </p>

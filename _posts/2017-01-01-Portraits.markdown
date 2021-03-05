@@ -9,7 +9,7 @@ permalink: portraits
 
 
 <p align="center">
-    <img src="/assets/bjork.jpg" width="300"/>
+    <img src="/assets/portraits/bjork.jpg" width="300"/>
 </p>
 <p align="center">
 <span style="font-weight: 800;">Björk</span>
@@ -18,7 +18,7 @@ Some of the portraits from photography I drew during highschool.
 
 
 <p align="center">
-	   <img src="/assets/leo-full.png" width="300"/>
+	   <img src="/assets/portraits/leo-full.png" width="300"/>
 </p>
 <p align="center">
 <span style="font-weight: 800;">Leo Candycane</span>

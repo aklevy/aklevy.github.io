@@ -20,11 +20,11 @@ Open source project with [jcelerier](https://github.com/jcelerier), we implement
 I contributed in the development of controls and graphic design (logo and icons displayed in the QtCreator's Designer).
 
 <p align="center">
-  <img src="/assets/qml-cc.gif"/>
+  <img src="/assets/qmlcc/qml-cc.gif"/>
 </p>
 
 <p align="center">
-  <img src="/assets/qmlcc-designer.png"/>
+  <img src="/assets/qmlcc/qmlcc-designer.png"/>
 </p>
 
 

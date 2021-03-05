@@ -10,8 +10,8 @@ permalink: oscar
 ---
 
 <p align="center">
-<a href="/assets/oscar_triggered_loop.gif">
-  <img src="/assets/oscar.png"/>
+<a href="/assets/oscar/oscar_triggered_loop.gif">
+  <img src="/assets/oscar/oscar.png"/>
   </a>
 </p>
 For the open source project [ossia score](https://github.com/OSSIA/score), an interactive intermedia sequencer for audio visual artists, I created a cute mascot named Oscar (reference to the OSC protocol) based on the project logo previously made and UI elements from the software.
@@ -23,7 +23,7 @@ For the open source project [ossia score](https://github.com/OSSIA/score), an in
 He can be seen in the project website under the [contribution section](https://ossia.io/contributing/).
 Here's his detailed profile:
 <p align="center">
-    <img src="/assets/oscar_id_card.png"/>
+    <img src="/assets/oscar/oscar_id_card.png"/>
 </p>
 
 

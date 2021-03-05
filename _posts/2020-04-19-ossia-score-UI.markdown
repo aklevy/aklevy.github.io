@@ -19,8 +19,8 @@ So from here, I will explain the main UI evolution steps of ossia score for whic
 
 First, the UI looked like this originally. As you can see, it is quite complex with a main workspace in the middle, with panels on the sides and finally icons in the header. One thing that seemed unnecessary to me was the light grey background in the panels and for the icons, as it was adding more color eventhough there were already quite a few in the main zone. 
 <p align="center">
-<a href="/assets/score-0.png">
-  <img src="/assets/score-0.png"/>
+<a href="/assets/score_ui/score-0.png">
+  <img src="/assets/score_ui/score-0.png"/>
 </a>
 <figcaption style="text-align:center">Original ossia score UI</figcaption>
 </p>
@@ -28,8 +28,8 @@ First, the UI looked like this originally. As you can see, it is quite complex w
 The first remodeling of the UI was the biggest remodeling. I really focused on making the UI look simpler: the grey background was removed and the minimap (top-center) was changed to be more discrete. The color palette was changed as well (highlighted text color, border colors, etc.). It was quite some work but interesting and I was satisfied with how it turned out. 
 
 <p align="center">
-<a href="/assets/score-1.png">
-  <img src="/assets/score-1.png"/>
+<a href="/assets/score_ui/score-1.png">
+  <img src="/assets/score_ui/score-1.png"/>
 </a>
 <figcaption style="text-align:center">First UI remodeling, light grey background removed from panels and icons</figcaption>
 </p>
@@ -41,23 +41,23 @@ For the speed control, I definitely wanted to make it more clear that the range 
 I did the whole development on this part, as it was simple and small adjustments had to be made (as iterating between the designer and developper takes usually too much time).
 
 <p align="center">
-<img src="/assets/inspectors.png"/>
+<img src="/assets/score_ui/inspectors.png"/>
 <figcaption style="text-align:center">New inspector (left) and old one (right)</figcaption>
 </p>
 
 Up until then, I have generally chosen the part I wanted to work on and did not have a clear instruction, but for this step the main goal was to reduce the vertical space the elements in the central workspace were taking. Indeed, users tend to have a lot of "boxes" in the central area which could not be all displayed at once. After several discussion, it was decided that the header could be reduced: the background was once more removed, icons were displayed only when the item was selected making the UI more simple. 
 
 <p align="center">
-<a href="/assets/score-3.png">
-<img src="/assets/score-3.png"/>
+<a href="/assets/score_ui/score-3.png">
+<img src="/assets/score_ui/score-3.png"/>
 </a>
 <figcaption style="text-align:center">Rework of the central area</figcaption>
 </p>
 
 The latest UI redesign concerned mainly redesigning the controls in the boxes and applying a darker color theme to the UI background.
 <p align="center">
-<a href="/assets/score-4.png">
-<img src="/assets/score-4.png"/>
+<a href="/assets/score_ui/score-4.png">
+<img src="/assets/score_ui/score-4.png"/>
 </a>
 <figcaption style="text-align:center">Controls (sliders in the bottom right) improved and the new dark theme</figcaption>
 </p>

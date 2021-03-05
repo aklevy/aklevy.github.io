@@ -7,8 +7,8 @@ color: "#d71427C0"
 permalink: magus
 ---
 <p align="center">
-<a href="/assets/magus_face.JPG">
-    <img src="/assets/magus_face.JPG" width="500"/>
+<a href="/assets/magus/magus_face.JPG">
+    <img src="/assets/magus/magus_face.JPG" width="500"/>
 </a>
 </p>
 
@@ -19,23 +19,23 @@ Back on topic, since I have always dreamed of having his artwork at home and I h
 <a href="saintsebastian">I have also done another reproduction of his work: Saint Sebastian</a>
 
 <p align="center">
-<a href="/assets/magus_original.JPG">
-    <img src="/assets/magus_original.JPG" width="500"/>
+<a href="/assets/magus/magus_original.JPG">
+    <img src="/assets/magus/magus_original.JPG" width="500"/>
 </a>
 <figcaption id="caption_small" style="text-align:center; font-size: 18px;">The original artwork by Yamamoto Takato</figcaption>
 </p>
 
 <p align="center">
-<a href="/assets/magus_all.JPG">
-	   <img src="/assets/magus_all.JPG" width="700"/>
+<a href="/assets/magus/magus_all.JPG">
+	   <img src="/assets/magus/magus_all.JPG" width="700"/>
 </a>
 </p>
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
-<a href="/assets/magus_top.JPG">
-	   <img src="/assets/magus_top.JPG" width="700"/>
+<a href="/assets/magus/magus_top.JPG">
+	   <img src="/assets/magus/magus_top.JPG" width="700"/>
 </a>
-<a href="/assets/magus_bottom.JPG">
-	   <img src="/assets/magus_bottom.JPG" width="700"/>
+<a href="/assets/magus/magus_bottom.JPG">
+	   <img src="/assets/magus/magus_bottom.JPG" width="700"/>
 </a>
 </div>
