@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "The Magus"
+preview: /assets/preview/magus-preview.png
+tags: [All, Artsy-wimey]
+color: "#d71427C0"
+permalink: magus
+---
+<p align="center">
+<a href="/assets/magus_face.JPG">
+    <img src="/assets/magus_face.JPG" width="500"/>
+</a>
+</p>
+
+I have been a fan of Yamamoto Takato's drawing since highschool when I spent my summer in the library looking for interesting quirky books. It was love at first sight, his intricate detailed art was eye catching, the gruesome details delightful and esthetically pleasing. A little after that, I discovered he had also done the album cover for my favorite band at the time (Dir En Grey): these kind of crossover of my different hobbies always make me extremely happy...!
+
+Back on topic, since I have always dreamed of having his artwork at home and I had a wood board of 2m waiting to be drawn over: I decided to draw a reproduction of his piece 'The Magus' (2004). It was done with black ink on a wood board of 2 meters, the drawing itself takes up to 1.3m. 
+
+<a href="saintsebastian">I have also done another reproduction of his work: Saint Sebastian</a>
+
+<p align="center">
+<a href="/assets/magus_original.JPG">
+    <img src="/assets/magus_original.JPG" width="500"/>
+</a>
+<figcaption id="caption_small" style="text-align:center; font-size: 18px;">The original artwork by Yamamoto Takato</figcaption>
+</p>
+
+<p align="center">
+<a href="/assets/magus_all.JPG">
+	   <img src="/assets/magus_all.JPG" width="700"/>
+</a>
+</p>
+
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+<a href="/assets/magus_top.JPG">
+	   <img src="/assets/magus_top.JPG" width="700"/>
+</a>
+<a href="/assets/magus_bottom.JPG">
+	   <img src="/assets/magus_bottom.JPG" width="700"/>
+</a>
+</div>
