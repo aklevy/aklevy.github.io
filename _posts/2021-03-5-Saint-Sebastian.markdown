@@ -3,7 +3,7 @@ layout: post
 title:  "Saint Sebastian"
 preview: /assets/preview/saint_sebastian-preview.png
 tags: [All, Artsy-wimey]
-color: "#916b89C0"
+color: "#736258C0"
 permalink: saintsebastian
 ---
 <p align="center">
