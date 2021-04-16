@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://aklevy.github.io/" # the base hostname & protocol for your site
 github_username:  aklevy
 linkedin_link: "https://www.linkedin.com/in/akane-levy/"
+instagram_link: "https://www.instagram.com/picopoozer/"
 image: "/assets/pattern_2.png"
 # Build settings
 markdown: kramdown
