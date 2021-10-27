@@ -2,7 +2,7 @@
 layout: post
 title:  "ossia score logo"
 preview: /assets/preview/scoreLogo_300.png
-tags: [All, Artsy-wimey, UI/UX]
+tags: [All, Artsy-wimey, Graphic Design]
 color: "#32B4FFC0"
 permalink: ossiaScoreLogo
 ---

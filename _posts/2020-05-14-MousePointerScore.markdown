@@ -3,7 +3,7 @@ layout: post
 title:  "Mouse Pointer"
 subtitle: ""
 preview: /assets/preview/mouse_preview.svg
-tags: [All, Artsy-wimey, UI/UX]
+tags: [All, Artsy-wimey, UI/UX, Graphic Design]
 color: "#f0f0f0A0"
 permalink: mouse
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Quarantine Doodles"
 subtitle: ""
 preview: /assets/preview/light-bulb.png
-tags: [All, Artsy-wimey]
+tags: [All, Artsy-wimey, Graphic Design]
 color: "#fcf6bdA0"
 permalink: doodles
 ---

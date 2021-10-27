@@ -2,7 +2,7 @@
 layout: post
 title:  "ossia score UI"
 preview: /assets/preview/scoreUI_300.png
-tags: [All, Programming, UI/UX, C++, Qt/QML]
+tags: [All, Programming, UI/UX, Qt/QML, Graphic Design]
 color: "#C1C1C1C0"
 permalink: ossiaScoreUI
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Mascot Oscar"
 date: 2017-01-08
 preview: /assets/preview/oscar-preview.png
-tags: [All, Artsy-wimey]
+tags: [All, Artsy-wimey, Graphic Design]
 color: "#2bbadfa0"
 permalink: oscar
 

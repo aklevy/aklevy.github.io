@@ -2,7 +2,7 @@
 layout: post
 title: "Waves"
 preview: /assets/preview/waves-preview.png
-tags: [All, Programming, C++, openFrameworks]
+tags: [All, Programming, openFrameworks]
 color: "#e592c5C0"
 permalink: waves
 

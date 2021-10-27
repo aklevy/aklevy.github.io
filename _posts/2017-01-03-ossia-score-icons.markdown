@@ -2,7 +2,7 @@
 layout: post
 title: "Process Icons"
 preview: /assets/preview/ossia-score-process-icons-preview.png
-tags: [All, UI/UX]
+tags: [All, UI/UX, Graphic Design]
 color: "#E91E63C0"
 permalink: process-icons
 

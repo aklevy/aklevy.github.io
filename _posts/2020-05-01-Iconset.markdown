@@ -3,7 +3,7 @@ layout: post
 title:  "Iconset"
 subtitle: ""
 preview: /assets/preview/iconset-preview.svg
-tags: [All, Artsy-wimey, UI/UX]
+tags: [All, Artsy-wimey, UI/UX, Graphic Design]
 color: "#00B7B3A0"
 permalink: iconset
 ---

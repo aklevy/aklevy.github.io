@@ -3,7 +3,7 @@ layout: post
 title:  "Food Pattern"
 date: 2017-01-08
 preview: /assets/preview/egg.svg
-tags: [All, Artsy-wimey]
+tags: [All, Artsy-wimey, Graphic Design]
 color: "#ffb3b3a0"
 permalink: food-pattern
 

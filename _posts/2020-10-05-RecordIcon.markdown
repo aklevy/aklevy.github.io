@@ -2,7 +2,7 @@
 layout: post
 title:  "Record Icon"
 preview: /assets/preview/record_preview.svg
-tags: [All, Artsy-wimey, UI/UX]
+tags: [All, Artsy-wimey, UI/UX, Graphic Design]
 color: "#f61919C0"
 permalink: record
 ---
