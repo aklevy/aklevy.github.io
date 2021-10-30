@@ -28,8 +28,7 @@ function displayImage(link) {
 <div class="icon-grid" style="display: flex; flex-wrap: wrap; justify-content: center;">
 {% for image in site.static_files %}
     {% if image.path contains 'record_icon' and image.path contains 'svg'%}
-<img src="{{ image.path }}" width="50px" height="40px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor: url('/icons_svg/hand_link.svg'), auto;
-" />
+<img src="{{ image.path }}" width="50px" height="40px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor:pointer;"/>
     {% endif %}
 {% endfor %}
 </div>

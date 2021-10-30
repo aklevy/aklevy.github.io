@@ -54,8 +54,7 @@ function displayImage(link) {
 
 {% for image in site.static_files reversed %}
     {% if image.path contains 'icon_svg' %}
-<img src="{{ image.path }}" width="64px" height="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="    cursor: url('/icons_svg/hand_link.svg'), auto;
-" />
+<img src="{{ image.path }}" width="64px" height="64px" title="{{ image.path }}" onclick="displayImage(this.src)" style="cursor:pointer;"/>
     {% endif %}
 {% endfor %}
 
