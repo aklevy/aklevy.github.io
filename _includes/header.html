@@ -10,8 +10,11 @@
     <script src="../js/backgroundLine.js" ></script>
 {% endif %}-->
 
-
-    <nav class= "navbar" >
+    
+    <nav class= "navbar">
+    {% if page.url == "/" %}
+        <img class="logoal" src="/assets/logo_al_v2.png" width=80>
+    {% endif %}
       <div class="container">
         <div class="navbar-header"  >
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,8 +24,9 @@
             <span class="icon-bar"></span>
           </button>          
         </div>
+        
         {% if page.url != "/" %}
-             <div class="site-title link" ><a class="title" href="/" >{{site.title}}</a></div>
+             <div class="site-title link" ><a class="title" href="/" ><img src="/assets/logo_al_v2.png" width=80/></a></div>
         {% else %}
              <div class="site-title" >{{site.title}}</div>
         {% endif %}

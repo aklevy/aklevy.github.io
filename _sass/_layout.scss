@@ -2,19 +2,17 @@
  * Site header
  */
 
-.site-header {
-    position: relative;
-    text-align: center;
-   /* background-color: #FFA36D*/
-}
 .site-title, .site-title a, .site-title a:visited{
-    font-size: 30px;
+    font-size: 34px;
     font-family: Fira Sans Condensed;
     font-weight: 700;
     text-align: center;
     vertical-align: center;
-    padding-bottom: 30px;
-    color: $background-color;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4f121b;//$brand-color;//#d23147ff;
 }
 
 .site-title a:hover {
@@ -27,10 +25,19 @@
     
 }
 .site-header{
-    background-color: $brand-color;
-    color: $background-color;
-    padding-top: 30px
+    position: relative;
+    text-align: center;
+    /* background-color: #FFA36D
+    background-color: $brand-color;*/
+    color: $brand-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.logoal {
+    padding-bottom: 15px;
+}
+
 .navbar .navbar-nav {
 
     display: inline-block;
@@ -77,20 +84,18 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+.icon-nav-animated  {
+   border: solid 2px $background-color;
+   border-radius: 100%;
+}
+a:hover .icon-nav-animated  {
+   border-color: #9850e7;
 
-    border: solid 2px $brand-color;
-    display:inline-block;
-    
-    margin: 0;
-    border-radius: 100%;
-    &:hover {
-       border-color: $background-color;  
+   -webkit-transition: border-color 0.2s ease-out;
+   transition: border-color 0.2s ease-out;
 
-        -webkit-transition: border-color 0.2s ease-out;
-        transition: border-color 0.2s ease-out;
-
-        transition-timing-function: cubic;
-  }
+   transition-timing-function: cubic;
 }
 
 .post-nav > a{
@@ -153,22 +158,22 @@
     font-size: 30px;
     font-family: Fira Sans Condensed;
     font-weight: 600;
-    color: $brand-color; 
     vertical-align: bottom;
     text-align: center;
     
     line-height: 40px;
-    margin-left: 20px;
+    margin-right: 100px;
 }
 .footer-item {
-     margin-left: 10px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 .custom-site-footer{
-
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 .site-footer {
@@ -180,6 +185,14 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+.copyright {
+    font-size: 14px;
+    color: $brand-color; 
+    font-family: Fira Sans Condensed;
+    font-weight: 400;
+    color: $brand-color; 
+    padding-right: 100px;
+}
 .contact-list,
 .social-media-list {
     list-style: none;
@@ -510,15 +523,15 @@ span {
 }
 
 .about{
-    color: $brand-color;
+    color: #9e2535;
     text-decoration: none;
 
     &:visited {
-        color: $brand-color;
+        color: #1a0609;
     }
 
     &:hover {
-        color: $highlight-text-color;
+        color: #d23147;
         text-decoration: none;
     }
 }
