@@ -162,7 +162,6 @@ a:hover .icon-nav-animated  {
     text-align: center;
     
     line-height: 40px;
-    margin-right: 100px;
 }
 .footer-item {
     margin-left: 10px;
@@ -174,6 +173,9 @@ a:hover .icon-nav-animated  {
     align-items: center;
     width: 100%;
     margin-top: 30px;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 10px;
 }
 
 .site-footer {
@@ -191,7 +193,7 @@ a:hover .icon-nav-animated  {
     font-family: Fira Sans Condensed;
     font-weight: 400;
     color: $brand-color; 
-    padding-right: 100px;
+    line-height: 40px;
 }
 .contact-list,
 .social-media-list {
